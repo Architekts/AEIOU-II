@@ -1,0 +1,16 @@
+﻿capital = 104
+
+set_research_slots = 3
+
+set_technology = {
+	tech_support = 1		
+	tech_engineers = 1
+	grenade = 1
+	infantry_weapons = 1
+	support_weapons = 1
+	
+}
+
+set_popularities = {
+	conservative = 100
+}

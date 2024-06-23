@@ -1,0 +1,32 @@
+#state= {
+#	id=974
+#	name="STATE_974" #The Pale
+#	manpower = 1221013
+#	
+#	state_category = town
+#
+#	history= {
+#		owner = SCO
+#		victory_points = {
+#			11293 10 #Dublin
+#		}
+#		victory_points = {
+#			285 1 #Wexford
+#		}
+#		buildings = {
+#			infrastructure = 4 #was: 7
+#			industrial_complex = 1
+#			11293 = {
+#				naval_base = 6
+#			}
+#		}
+#		add_core_of = SCO
+#		add_core_of = IRE
+#	}
+#
+#	provinces= {
+#		3359 11293 7377 285
+# 	}
+#
+#	local_supplies=0.0 
+#}

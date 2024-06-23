@@ -1,0 +1,8 @@
+FRA	= "countries/France.txt"
+BOU	= "countries/Burgundy.txt"
+ROU	= "countries/Rouergue.txt"
+AUV	= "countries/Auvergne.txt"
+PRO	= "countries/Provence.txt"
+BRI	= "countries/Brittany.txt"
+LOR	= "countries/Lorraine.txt"
+FRC	= "countries/Franche-Comte.txt"
