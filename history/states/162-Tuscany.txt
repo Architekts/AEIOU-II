@@ -7,7 +7,7 @@ state = {
 	state_category = large_city
 
 	history = {
-		owner = TST
+		owner = TOS
 		victory_points = {
 			9907 3 
 		}
@@ -25,7 +25,6 @@ state = {
 			arms_factory = 1
 			industrial_complex = 1
 			dockyard = 3
-			air_base = 2
 			6973 = {
 				naval_base = 10
 			}
@@ -33,14 +32,7 @@ state = {
 				naval_base = 4
 			}
 		}
-		add_core_of = TST
 		add_core_of = TOS
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-				industrial_complex = 2
-			}
-		}
 	}
 
 	provinces = {

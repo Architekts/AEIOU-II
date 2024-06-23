@@ -7,7 +7,7 @@ state={
 
 	state_category = large_town
 	history={
-		owner = TST
+		owner = FRA
 		buildings = {
 			infrastructure = 3
 		}
@@ -15,7 +15,7 @@ state={
 			620 5
 		}
 		
-		add_core_of = TST
+		add_core_of = FRA
 	}
 
 	provinces={

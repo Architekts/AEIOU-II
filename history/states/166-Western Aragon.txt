@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = TST
+		owner = SPF
 		victory_points = {
 			3816 3 
 		}
@@ -19,10 +19,9 @@ state={
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 1
-			air_base = 3
 
 		}
-		add_core_of = TST
+		add_core_of = SPF
 
 	}
 

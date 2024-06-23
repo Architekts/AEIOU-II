@@ -38,9 +38,9 @@ set_popularities = {
 add_to_array = { national_religion_array =  3 }
 
 create_country_leader = {
-	name = "Charles Dilke"
+	name = "Lord Robert Cecil"
 	desc = "ENG_LEADER_DESC_CHARLES_DILKE"
-	picture = "Portrait_ENG_Charles_Dilkes.dds"
+	picture = "Portrait_ENG_Robert_Gascoyne-Cecil.dds"
 	expire = "1999.1.1"
 	ideology = conservative_moderate
 }

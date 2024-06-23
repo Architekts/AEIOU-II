@@ -5,7 +5,7 @@ state = {
 	
 	state_category = town
 	history = {
-		owner = TST
+		owner = VNC
 		victory_points = {
 			9940 5
 		}
@@ -14,7 +14,6 @@ state = {
 		}
 		buildings = {
 			infrastructure = 2
-			air_base = 2
 			12058 = {
 				naval_base = 1
 			}
@@ -22,7 +21,7 @@ state = {
 				naval_base = 3
 			}
 		}
-		add_core_of = TST
+		add_core_of = VNC
 	}
 	provinces = {
 		1164 4170 9940 12058

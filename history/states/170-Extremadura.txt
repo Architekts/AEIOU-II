@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = TST
+		owner = SPF
 		victory_points = {
 			6902 1 
 		}
@@ -15,7 +15,7 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = TST
+		add_core_of = SPF
 
 	}
 
