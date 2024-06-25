@@ -1,0 +1,24 @@
+
+state={
+	id=975
+	name="STATE_975"
+
+	history={
+		victory_points = {
+			6606 5 
+		}	
+		owner = BLG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BLG
+
+	}
+
+	provinces={
+		6606 11734 
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

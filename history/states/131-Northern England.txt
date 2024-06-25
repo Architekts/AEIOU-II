@@ -24,7 +24,7 @@ state={
 				naval_base = 6
 			}
 		}
-		#set_demilitarized_zone = yes		
+		set_demilitarized_zone = yes		
 	}
 
 	provinces={

@@ -8,11 +8,10 @@ state=
 	
 	history=
 	{
-		owner = TST
+		owner = MOL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			air_base = 2
 		}
 		victory_points = {
 			9716 1 
@@ -20,7 +19,7 @@ state=
 		victory_points = {
 			6706 1 
 		}
-		add_core_of = TST
+		add_core_of = MOL
 	}
 	provinces=
 	{

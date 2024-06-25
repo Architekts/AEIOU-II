@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = TST
+		owner = CRI
 		victory_points = {
 			3686 20
 		}
@@ -20,7 +20,6 @@ state={
 		buildings = {
 			infrastructure = 3
 			dockyard = 1
-			air_base = 3
 			3686 ={
 				naval_base = 10
 				coastal_bunker = 3
@@ -30,13 +29,7 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = TST
 		add_core_of = CRI
-		1939.1.1 = {
-			buildings = {
-				dockyard = 2
-			}
-		}
 	}
 
 	provinces={

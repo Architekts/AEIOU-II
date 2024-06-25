@@ -10,7 +10,7 @@ state={
 	state_category = city
 
 	history={
-		owner = TST
+		owner = AUS
 		victory_points = {
 			3569 20
 		}
@@ -20,15 +20,10 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 4
-			air_base = 5
 
 		}
-		add_core_of = TST
+		add_core_of = AUS
 
-		1939.3.14 = {
-			owner = TST
-			controller = TST
-		}
 	}
 
 	provinces={

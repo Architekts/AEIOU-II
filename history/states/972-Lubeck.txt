@@ -1,0 +1,29 @@
+
+state={
+	id=972
+	name="STATE_972"
+
+	history={
+		victory_points = {
+			11305 5 
+		}
+		buildings = {
+			11305 = {
+				naval_base = 6
+
+			}
+
+		}
+		owner = LBK
+		add_core_of = LBK
+
+	}
+
+	provinces={
+		11305 
+	}
+	manpower=990000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

@@ -1,0 +1,29 @@
+state={
+	id=988
+	name="STATE_988"
+
+	history={
+		owner = TRI
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = TRI
+		
+		victory_points = {
+			11435 1 
+		}
+
+	}
+
+	provinces={
+		11435 11470 11494 
+	}
+	manpower=12200
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

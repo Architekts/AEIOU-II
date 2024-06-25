@@ -10,13 +10,12 @@ state={
 		victory_points = {
 			11597 1
 		}
-		owner = TST
+		owner = BUL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 		}
-		add_core_of = TST
-		add_claim_by = TST
+		add_core_of = BUL
 	}
 
 	provinces={

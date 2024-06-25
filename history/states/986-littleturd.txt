@@ -1,0 +1,24 @@
+
+state={
+	id=986
+	name="STATE_986"
+
+	history={
+		owner = ULM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = ULM
+
+	}
+
+	provinces={
+		11499 
+	}
+	manpower=7920
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

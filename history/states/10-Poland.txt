@@ -6,7 +6,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = TST
+		owner = PLC
 		victory_points = {
 			3544 25
 		}
@@ -15,12 +15,10 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			arms_factory = 6
+			arms_factory = 3
 			industrial_complex = 2
-			anti_air_building = 2
-			air_base = 5
 		}
-		add_core_of = TST
+		add_core_of = PLC
 	}
 
 	provinces={

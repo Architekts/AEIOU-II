@@ -11,7 +11,7 @@ state={
 	state_category = rural
 	
 	history={
-		owner = TST
+		owner = MOR
 		add_core_of = MOR
 		victory_points = {
 			7069 10 
@@ -19,7 +19,6 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			air_base = 4
 			7069 = {
 				naval_base = 4
 			}

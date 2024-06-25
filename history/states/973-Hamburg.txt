@@ -1,0 +1,22 @@
+
+state={
+	id=973
+	name="STATE_973"
+
+	history={
+		victory_points = {
+			9347 20 
+		}
+		owner = HAM
+		add_core_of = HAM
+
+	}
+
+	provinces={
+		9347 
+	}
+	manpower=950000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

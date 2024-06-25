@@ -1,0 +1,24 @@
+state={
+	id=971
+	name="STATE_971"
+
+	history = {
+		owner = BRI
+		add_core_of = ENG
+		buildings = {
+			540 = {
+				naval_base = 8
+			}
+		}
+
+		victory_points = { 540 10 }
+
+	}
+	provinces={
+		540 
+	}
+	manpower=8000
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

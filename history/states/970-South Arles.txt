@@ -1,0 +1,21 @@
+state={
+	id=970
+	name="STATE_970"
+
+	history ={
+		owner = BOU
+		add_core_of = BOU
+		add_core_of = OCC
+
+		victory_points = {
+			9898 1 
+		}
+	}
+	provinces={
+		6770 9898 11711 11877 
+	}
+	manpower=122220
+	buildings_max_level_factor=1.000
+	state_category = town
+	local_supplies=0.000
+}

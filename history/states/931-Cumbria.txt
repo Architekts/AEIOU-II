@@ -17,7 +17,7 @@ state = {
 		buildings = {
 			infrastructure = 3 #was: 6
 		}
-		#set_demilitarized_zone = yes
+		set_demilitarized_zone = yes
 	}
 
 	provinces = {

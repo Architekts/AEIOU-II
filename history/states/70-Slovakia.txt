@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = TST
+		owner = AUS
 		victory_points = {
 			9692 10
 		}
@@ -21,15 +21,8 @@ state={
 			infrastructure = 3
 			industrial_complex = 3
 			arms_factory = 2
-			air_base = 3
 		}
-		add_core_of = TST
-
-		1939.3.14 = {
-			owner = TST
-			controller = TST
-			add_core_of = TST
-		}
+		add_core_of = AUS
 	}
 
 	provinces={

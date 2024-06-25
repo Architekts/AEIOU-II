@@ -5,9 +5,9 @@ state = {
 	state_category = town
 
 	history = {
-		owner = TST
+		owner = PIE
 
-		add_core_of = TST
+		add_core_of = PIE
 
 		victory_points = {
 			778 1 

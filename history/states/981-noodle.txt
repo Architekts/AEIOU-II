@@ -1,0 +1,25 @@
+
+state={
+	id=981
+	name="STATE_981"
+
+	history={
+		owner = BAD
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = BAD
+
+	}
+
+	provinces={
+		3530 6542 6568 6581 6712 
+	}
+	manpower=34200
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

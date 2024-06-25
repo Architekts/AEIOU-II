@@ -8,7 +8,7 @@ state={
 
 
 	history={
-		owner = TST
+		owner = VNC
 		victory_points = { #Dubrovnik
 			6889 3 
 		}
@@ -26,9 +26,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = TST
-		#add_claim_by = TST #added by focus
-		add_core_of = TST
+		add_core_of = VNC
 	}
 
 	provinces={

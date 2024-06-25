@@ -420,9 +420,24 @@ VNC = {
 	color_ui = rgb { 150 54 69 }
 }
 
+BLG = {
+    color = rgb { 255 153 0 }
+	color_ui = rgb { 255 153 0 }
+}
+
+VER = {
+    color = rgb { 255 204 204 }
+	color_ui = rgb { 255 204 204 }
+}
+
 SCO = {
 	color = rgb { 217 180 53 }
 	color_ui = rgb { 217 180 53 }
+}
+
+LOR = {
+	color = rgb { 199 189 107 }
+	color_ui = rgb { 199 189 107 }
 }
 
 PLC = {
@@ -1673,10 +1688,7 @@ BRI = {
 	color = rgb { 1 37 184 }
 	color_ui = rgb { 1 37 184 }
 }
-LOR = {
-	color = rgb { 146 139 21 }
-	color_ui = rgb { 146 139 21 }
-}
+
 FRC = {
 	color = rgb { 141 38 38 }
 	color_ui = rgb { 141 38 38 }

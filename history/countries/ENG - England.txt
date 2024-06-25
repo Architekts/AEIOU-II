@@ -44,3 +44,11 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = conservative_moderate
 }
+
+create_country_leader = {
+	name = "William Gladstone"
+	desc = "ENG_LEADER_DESC_CHARLES_DILKE"
+	picture = "Portrait_ENG_William_Gladstone.dds"
+	expire = "1999.1.1"
+	ideology = liberal_moderate
+}

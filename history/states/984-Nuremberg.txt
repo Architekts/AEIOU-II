@@ -1,0 +1,26 @@
+state={
+	id=984
+	name="STATE_984"
+
+	history={
+		owner = NUR
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+		}
+		add_core_of = NUR
+
+		victory_points = {
+			11544 10 
+		}		
+	}	
+
+	provinces={
+		11544 
+	}
+	manpower=75900
+	state_category=megalopolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

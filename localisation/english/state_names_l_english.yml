@@ -985,8 +985,8 @@
  STATE_967: "Amazon" # impassables
  STATE_968: "Amazon" # impassables
  STATE_969: "Rio Branco"
- STATE_970: "Rouergue"
- STATE_971: "Franche-Comte"
+ STATE_970: "South Arles"
+ STATE_971: "Port Kernau"
  STATE_972: "Devonshire"
  STATE_973: "Douvres"
  STATE_974: "The Pale"
