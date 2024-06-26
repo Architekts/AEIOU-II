@@ -68,6 +68,6 @@ replace_path="gfx/train_gfx_database"
 replace_path="gfx/interface/equipmentdesigner/graphic_db"
 replace_path="gfx/loadingscreens"
 
-
+path="C:/Users/rocki/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/AEIOU-II"
 supported_version="1.14.*"
 

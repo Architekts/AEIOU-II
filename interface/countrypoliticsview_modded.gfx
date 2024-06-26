@@ -1,0 +1,41 @@
+spriteTypes = {
+	
+	#Loyalty
+
+	progressbartype = {
+		name = "GFX_hog_loyalty_long"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		textureFile1 = "gfx/interface/hog_guis/loyalty_bar_100.dds"
+		textureFile2 = "gfx/interface/hog_guis/loyalty_bar_0.dds"
+		size = { x = 430 y = 45 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	
+	#HRE
+	
+	spriteType = {
+		name = "GFX_disband_hre_button"
+		texturefile = "gfx/interface/disband_hre.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_join_hre_button"
+		texturefile = "gfx/interface/join_hre.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_hre_main_button"
+		texturefile = "gfx/interface/hre_main_button.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_hre_main"
+		texturefile = "gfx/interface/hre_main.dds"
+	}
+	
+}
