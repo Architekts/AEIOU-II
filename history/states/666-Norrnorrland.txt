@@ -11,7 +11,7 @@ state = {
 	}
 
 	history={
-		owner = TST
+		owner = SWE
 		victory_points = {
 			9108 2 
 		}
@@ -36,7 +36,7 @@ state = {
 			}
 
 		}
-		add_core_of = TST
+		add_core_of = SWE
 
 
 	}

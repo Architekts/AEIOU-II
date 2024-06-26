@@ -12,11 +12,10 @@ state={
 	}
 
 	history={
-		owner = TST
+		owner = NOR
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2
-			air_base = 1
 			53 = {
 				naval_base = 1
 				coastal_bunker = 1
@@ -33,7 +32,7 @@ state={
 		victory_points = {
 			122 5
 		}
-		add_core_of = TST
+		add_core_of = NOR
 	}
 
 	provinces={

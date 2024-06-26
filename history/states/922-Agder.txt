@@ -13,8 +13,8 @@ state = {
 			9296 3 
 		}
 		
-		owner = TST
-		add_core_of = TST
+		owner = NOR
+		add_core_of = NOR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
