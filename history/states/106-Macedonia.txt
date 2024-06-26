@@ -7,19 +7,16 @@ state={
 	}
 
 	history={
-		owner = TST
+		owner = GRE
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			air_base = 2
+			industrial_complex = 18
 
 		}
 		victory_points = {
 			3882 5
 		}
-		add_core_of = TST
-		add_core_of = MAC
-		add_claim_by = TST
+		add_core_of = GRE
 	}
 
 	provinces={

@@ -10,14 +10,8 @@ state = {
 		victory_points = {
 			3022 5
 		}
-		owner = TST
-		add_core_of = TST
-		if = {
-			limit = {
-				has_dlc = "Arms Against Tyranny"
-			}
-			add_core_of = SMI
-		}
+		owner = SWE
+		add_core_of = SWE
 		buildings = {
 			infrastructure = 2
 			arms_factory = 0

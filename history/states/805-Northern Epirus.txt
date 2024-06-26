@@ -13,19 +13,14 @@ state={
 	state_category = pastoral
 
 	history= {
-		owner = TST
+		owner = GRE
 		victory_points = {
 			914 1
 		}
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = TST
-
-		1939.4.12 = {
-			owner = TST
-			controller = TST
-		}
+		add_core_of = GRE
 	}
 
 	local_supplies=0.0 

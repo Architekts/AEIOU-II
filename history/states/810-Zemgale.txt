@@ -4,7 +4,7 @@ state={
 	name="STATE_810"
 
 	history={
-		owner = TST
+		owner = COU
 		victory_points = {
 			6222 3 #Jelgava
 		}
@@ -15,14 +15,13 @@ state={
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
-			air_base = 3
 			310 = {
 				bunker = 2
 
 			}
 
 		}
-		add_core_of = TST
+		add_core_of = COU
 
 	}
 

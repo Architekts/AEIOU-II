@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = TST
+		owner = ALB
 		victory_points = {
 			9914 5 
 		}
@@ -26,7 +26,6 @@ state = {
 			infrastructure = 2 
 			arms_factory = 1
 			industrial_complex = 1
-			air_base = 3
 			11767 = {
 				naval_base = 4
 			}
@@ -35,7 +34,7 @@ state = {
 			}
 
 		}
-		add_core_of = TST
+		add_core_of = ALB
 
 	}
 

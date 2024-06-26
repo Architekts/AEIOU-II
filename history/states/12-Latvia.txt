@@ -10,16 +10,15 @@ state={
 	state_category = rural
 	
 	history={
-		owner = TST
+		owner = COU
 		victory_points = {
 			10493 1 #Valmiera
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			air_base = 3
 		}
-		add_core_of = TST
+		add_core_of = COU
 	}
 
 	provinces={

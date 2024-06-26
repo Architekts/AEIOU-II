@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = TST
+		owner = COU
 		victory_points = {
 			3174 1 #Voru
 		}
@@ -15,10 +15,9 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
-			air_base = 2
 
 		}
-		add_core_of = TST
+		add_core_of = COU
 
 	}
 

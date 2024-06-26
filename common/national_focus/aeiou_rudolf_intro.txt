@@ -1,0 +1,50 @@
+################
+###INTRO TREE###
+################
+
+focus_tree = {
+    id = Austria_rudolf_intro
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 13
+            tag = AUS
+        }
+    }
+    continuous_focus_position = { x = 50 y = 2000 }
+
+    focus = {
+        id = AUS_rudolfs_bane
+        icon = GFX_AUS_focus_Rudolfs_Bane
+        cost = 30
+
+        x = 5
+        y = 1
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AUS_rudolfs_bane"
+            country_event = Ausrudolf.1 
+        }
+    }
+  
+    focus = {
+        id = AUS_neue_gesellschaft
+        icon = GFX_AUS_focus_New_Society   
+        cost = 30
+
+        x = 1
+        y = 1
+        prerequisite = {
+            focus = AUS_the_peoples_freedom
+        }
+        prerequisite = {
+            focus = AUS_the_clergys_fate
+        }
+        relative_position_id = AUS_the_peoples_freedom
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus AUS_neue_gesellschaft"
+            country_event = Ausrudolf.16
+            load_focus_tree = Austria_rudolf_reforms
+        }
+    }
+}
