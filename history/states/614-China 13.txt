@@ -7,15 +7,14 @@ state={
 	state_category = town
 
 	history={
-		owner = TST
-		add_core_of = TST
-		add_core_of = TST
+		owner = CHI
+		add_core_of = CHI
 		buildings = {
 			infrastructure = 2
 		}
 
 		1938.10.25 = {
-			controller = TST
+			controller = CHI
 		}
 	}
 
