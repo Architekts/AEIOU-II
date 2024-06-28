@@ -1,1 +1,22 @@
-﻿
+﻿add_namespace = SpainGibraltar
+
+country_event = {
+	id = SpainGibraltar.1
+	title = SpainGibraltar.1.t
+	desc = SpainGibraltar.1.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = SpainGibraltar.1.a
+		ai_chance = {
+			factor = 100
+		}
+		declare_war_on = {
+		target = VNC
+		type = take_state
+		generator = { 118 290 }	
+		}
+	}
+}

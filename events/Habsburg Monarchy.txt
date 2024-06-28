@@ -56,6 +56,13 @@ country_event = {
 	# Savoy attacks Genoa
 		}
 	}
+	SPR = {
+	country_event = {
+	id = SpainGibraltar.1
+	days = 10
+	# Spain moves in to take Gibraltar
+		}
+	}
 }
 country_event = { # Hanover Declines
 	id = Declined.1
