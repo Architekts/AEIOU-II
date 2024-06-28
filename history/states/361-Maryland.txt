@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = TST
+		owner = NEN
 		victory_points = {
 			3957 40 
 		}
@@ -28,7 +28,7 @@ state={
 
 			}
 		}
-		add_core_of = TST
+		add_core_of = NEN
 
 	}
 
