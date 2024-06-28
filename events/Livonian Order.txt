@@ -1,0 +1,31 @@
+add_namespace = CouTradeLeague
+country_event = {
+	id = CouTradeLeague.1
+	title = CouTradeLeague.1.t
+	desc = CouTradeLeague.1.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # Accept!
+		name = CouTradeLeague.1.a
+		ai_chance = {
+			factor = 75
+		}
+		declare_war_on = {
+		target = RIG
+		type = annex_everything
+		}
+	}
+	option = { # Decline...
+		name = CouTradeLeague.1.b
+		ai_chance = {
+			factor = 25
+		}
+		AUS = {
+		country_event = {
+		id = Declined.5
+			}
+		}
+	}
+}

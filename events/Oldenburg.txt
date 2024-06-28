@@ -1,0 +1,31 @@
+add_namespace = OldTradeLeague
+country_event = {
+	id = OldTradeLeague.1
+	title = OldTradeLeague.1.t
+	desc = OldTradeLeague.1.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # Accept!
+		name = OldTradeLeague.1.a
+		ai_chance = {
+			factor = 75
+		}
+		declare_war_on = {
+		target = BRE
+		type = annex_everything
+		}
+	}
+	option = { # Decline...
+		name = OldTradeLeague.1.b
+		ai_chance = {
+			factor = 25
+		}
+		AUS = {
+		country_event = {
+		id = Declined.2
+			}
+		}
+	}
+}

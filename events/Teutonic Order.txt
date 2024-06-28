@@ -1,0 +1,31 @@
+add_namespace = PrsTradeLeague
+country_event = {
+	id = PrsTradeLeague.1
+	title = PrsTradeLeague.1.t
+	desc = PrsTradeLeague.1.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # Accept!
+		name = PrsTradeLeague.1.a
+		ai_chance = {
+			factor = 75
+		}
+		declare_war_on = {
+		target = DAN
+		type = annex_everything
+		}
+	}
+	option = { # Decline...
+		name = PrsTradeLeague.1.b
+		ai_chance = {
+			factor = 25
+		}
+		AUS = {
+		country_event = {
+		id = Declined.4
+			}
+		}
+	}
+}

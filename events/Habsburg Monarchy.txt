@@ -1,0 +1,149 @@
+###########################
+### This is for Austria ###
+###########################
+add_namespace = HabsburgEvent
+add_namespace = Declined
+country_event = {
+	id = HabsburgEvent.1
+	title = HabsburgEvent.1.t
+	desc = HabsburgEvent.1.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = HabsburgEvent.1.a
+		ai_chance = {
+			factor = 100
+		}
+	declare_war_on = {
+	target = VNC
+	type = annex_everything
+	}
+	HAN = {
+	country_event = {
+	id = HanTradeLeague.1
+	# Hanover attacks Bremen and Hamburg
+		}
+	}
+	OLD = {
+	country_event = {
+	id = OldTradeLeague.1
+	# Oldenburg attacks Bremen
+		}
+	}
+	MCK = {
+	country_event = {
+	id = MckTradeLeague.1
+	# Mecklenburg attacks Lubeck
+		}
+	}
+	PRS = {	
+	country_event = {
+	id = PrsTradeLeague.1
+	# Teutonic Order attacks Danzig
+		}
+	}
+	COU = {
+	country_event = {
+	id = CouTradeLeague.1
+	# Livonian Order attacks Riga
+		}
+	}
+	PIE = {
+	country_event = {
+	id = PieTradeLeague.1
+	# Savoy attacks Genoa
+		}
+	}
+}
+country_event = { # Hanover Declines
+	id = Declined.1
+	title = Declined.1.t
+	desc = Declined.1.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = Declined.1.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+country_event = { # Oldenburg Declines
+	id = Declined.2
+	title = Declined.2.t
+	desc = Declined.2.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = Declined.2.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+country_event = { # Mecklenburg Declines
+	id = Declined.3
+	title = Declined.3.t
+	desc = Declined.3.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = Declined.3.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+country_event = { # Teutonic Order Declines
+	id = Declined.4
+	title = Declined.4.t
+	desc = Declined.4.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = Declined.4.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+country_event = { # Livonian Order Declines
+	id = Declined.5
+	title = Declined.5.t
+	desc = Declined.5.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = Declined.5.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+country_event = { # Savoy Declines
+	id = Declined.6
+	title = Declined.6.t
+	desc = Declined.6.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = Declined.6.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}

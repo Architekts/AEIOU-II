@@ -1,0 +1,31 @@
+add_namespace = PieTradeLeague
+country_event = {
+	id = PieTradeLeague.1
+	title = PieTradeLeague.1.t
+	desc = PieTradeLeague.1.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # Accept!
+		name = PieTradeLeague.1.a
+		ai_chance = {
+			factor = 75
+		}
+		declare_war_on = {
+		target = GEN
+		type = annex_everything
+		}
+	}
+	option = { # Decline...
+		name = PieTradeLeague.1.b
+		ai_chance = {
+			factor = 25
+		}
+		AUS = {
+		country_event = {
+		id = Declined.6
+			}
+		}
+	}
+}

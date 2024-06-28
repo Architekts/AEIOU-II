@@ -1,0 +1,35 @@
+add_namespace = HanTradeLeague
+country_event = {
+	id = HanTradeLeague.1
+	title = HanTradeLeague.1.t
+	desc = HanTradeLeague.1.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # Accept!
+		name = HanTradeLeague.1.a
+		ai_chance = {
+			factor = 75
+		}
+		declare_war_on = {
+		target = BRE
+		type = annex_everything
+		}
+		declare_war_on = {
+		target = HAM
+		type = annex_everything
+		}
+	}
+	option = { # Decline...
+		name = HanTradeLeague.1.b
+		ai_chance = {
+			factor = 25
+		}
+		AUS = {
+		country_event = {
+		id = Declined.1
+			}
+		}
+	}
+}
