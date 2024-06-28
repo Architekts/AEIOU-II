@@ -365,3 +365,4 @@ VER = "countries/Verona.txt"
 
 LOR	= "countries/Lorraine.txt"
 GDH	= "countries/Golden Horde.txt"
+NOV	= "countries/Novgorod.txt"

@@ -1698,3 +1698,8 @@ GDH = {
 	color = rgb { 207 150 66 }
 	color_ui = rgb { 207 150 66 }
 }
+
+NOV = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}

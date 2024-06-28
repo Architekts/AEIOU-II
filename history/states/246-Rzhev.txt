@@ -10,14 +10,14 @@ state={
 	}
 
 	history={
-		owner = TST
+		owner = NOV
 		victory_points = {
 			11349 1
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
-		add_core_of = TST
+		add_core_of = NOV
 	}
 
 	provinces={
