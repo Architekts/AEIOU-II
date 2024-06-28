@@ -1,0 +1,21 @@
+﻿add_namespace = venicepeace
+
+country_event = { #venice is occupied by the austrians
+	id = venicepeace.1
+	title = venicepeace.1.t
+	desc = venicepeace.1.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = AUS
+	}
+
+	option = { #We surrender!
+		name = venicepeace.1.a
+		ai_chance = {
+			factor = 100
+		}
+
+	}
+}

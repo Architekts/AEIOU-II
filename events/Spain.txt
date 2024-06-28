@@ -13,10 +13,56 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		declare_war_on = {
-		target = VNC
-		type = take_state
-		generator = { 118 290 }	
+		start_border_war = {
+			change_state_after_war = no
+			attacker = {
+				state = 173
+				num_provinces = 1
+				on_win = SpainGibraltar.2
+				on_lose = SpainGibraltar.3
+			}	
+			defender = {
+				state = 118
+				num_provinces = 1
+				on_win = VeniceGibraltar.2
+				on_lose = VeniceGibraltar.3
+			}
 		}
+	}
+}
+
+country_event = {
+	id = SpainGibraltar.2
+	title = SpainGibraltar.2.t
+	desc = SpainGibraltar.2.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = SpainGibraltar.2.a
+		ai_chance = {
+			factor = 100
+		}
+		transfer_state = 118
+	}
+}
+
+country_event = {
+	id = SpainGibraltar.3
+	title = SpainGibraltar.3.t
+	desc = SpainGibraltar.3.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = SpainGibraltar.3.a
+		ai_chance = {
+			factor = 100
+		}
+		remove_state_core = 118
+		add_political_power = -150
+		add_stability = -0.1
 	}
 }

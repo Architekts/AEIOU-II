@@ -59,6 +59,35 @@ on_actions = {
         }
     }
 
+	on_state_control_changed = {  # ROOT = new state controller, FROM = old state contoller, FROM.FROM = state
+		effect = {
+			if = {
+				limit = {
+					FROM.FROM = {
+						state = 160  # state is 160
+					}
+					ROOT = {
+						tag = AUS  # new state controller is AUS
+						has_war_with = VNC  # og state controller is at war with VNC 
+					}
+					FROM = {
+						tag = VNC  # og state controller is VNC
+					}
+				}
+				ROOT = {
+					country_event = venicepeace.1
+
+					transfer_state = 160
+					transfer_state = 103
+					transfer_state = 852
+					transfer_state = 163
+					white_peace = FROM
+
+				}
+			}
+		}
+	}
+
     on_daily = {
 		effect = {
 			set_temp_variable  = { hre_temp = BRD.loyalty }		  # elector
