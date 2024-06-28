@@ -6,12 +6,12 @@ state = {
 	}
 
 	history = {
-		owner = TST
+		owner = ING
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = TST
+		add_core_of = ING
 
 		victory_points = {
 			9628 3

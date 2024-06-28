@@ -364,3 +364,4 @@ BLG = "countries/Bologna.txt"
 VER = "countries/Verona.txt"
 
 LOR	= "countries/Lorraine.txt"
+GDH	= "countries/Golden Horde.txt"

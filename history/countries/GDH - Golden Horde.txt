@@ -1,8 +1,6 @@
 capital = 137
 
-set_oob = "CRI_1886"
-
-set_research_slots = 3
+set_research_slots = 2
 
 set_stability = 0.2
 set_war_support = 0.3
@@ -29,9 +27,9 @@ set_popularities = {
 add_to_array = { national_religion_array =  8 }
 
 create_country_leader = {
-	name = "Iskander I"
+	name = "Ulan Khan"
 	desc = "CRI_LEADER_DESC_ISKANDER_I"
-	picture = "Portrait_CRI_Iskander_I.dds"
+	picture = "Portrait_GDH_Ulan_Khan.dds"
 	expire = "1902.6.19"
 	ideology = absolutist_moderate
 	traits = {

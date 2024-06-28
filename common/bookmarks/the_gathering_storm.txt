@@ -7,11 +7,42 @@ bookmarks = {
 		default_country = "TST"
 		default = yes
 		
-		"TST"={
-			history = "OTHER_GATHERING_STORM_DESC"
+		"AUS" = {
+			history = AUS_AEIOU_DESC
+			ideology = absolutist
+			ideas={
+			}
+			focuses = {
+			}
 		}
-		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
+		"SPR" = {
+			history = SPR_AEIOU_DESC
+			ideology = absolutist
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		"FRA" = {
+			history = FRA_AEIOU_DESC
+			ideology = absolute
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		"ENG" = {
+			history = ENG_AEIOU_DESC
+			ideology = conservative
+			ideas = {
+			}
+			focuses = {
+			}
+			
+		}
+		"---" = {
+			history = CHI_AEIOU_DESC
+			
 		}
 	}
 }

@@ -12,9 +12,9 @@ state={
 	}
 
 	history={
-		owner = TST
+		owner = VNC
+		add_core_of = VNC
 		add_core_of = MOR
-		add_core_of = RIF
 		victory_points = {
 			9945 3
 		}
@@ -26,7 +26,6 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			air_base = 3
 			12100 = {
 				naval_base = 3
 			}

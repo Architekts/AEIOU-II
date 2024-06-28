@@ -3,6 +3,8 @@
 create_faction = hanseatic_league
 	add_to_faction = HAM
 	add_to_faction = DAN
+	add_to_faction = BRE
+	add_to_faction = RIG	
 
 oob = "LBK_1886"
 

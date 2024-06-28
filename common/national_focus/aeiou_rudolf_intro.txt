@@ -15,32 +15,239 @@ focus_tree = {
     continuous_focus_position = { x = 50 y = 2000 }
 
     focus = {
-        id = AUS_rudolfs_bane
-        icon = GFX_AUS_focus_Rudolfs_Bane
+        id = AUS_rudolphs_troubled_mind
+        icon = GFX_AUS_focus_The_Beginning
         cost = 30
-
-        x = 5
+     
+        x = 15
         y = 1
+
         completion_reward = {
-            log = "[GetDateText]: [Root.GetName]: Focus AUS_rudolfs_bane"
             country_event = Ausrudolf.1 
         }
     }
   
     focus = {
-        id = AUS_neue_gesellschaft
-        icon = GFX_AUS_focus_New_Society   
+        id = AUS_epiphany
+        icon = GFX_focus_spr_anarchism_knows_no_borders
         cost = 30
+        relative_position_id = AUS_rudolphs_troubled_mind  
+        x = 0
+        y = 1
 
+
+        prerequisite = {
+            focus = AUS_rudolphs_troubled_mind
+        }    
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = AUS_orchestrating_the_collapse
+        icon = GFX_focus_usa_focus_on_europe
+        cost = 30
+        relative_position_id = AUS_epiphany
+        x = 0
+        y = 1
+
+
+        prerequisite = {
+            focus = AUS_epiphany
+        }    
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = AUS_preparing_for_the_worst
+        icon = GFX_focus_usa_focus_on_europe
+        cost = 30
+        relative_position_id = AUS_orchestrating_the_collapse
+        x = -1
+        y = 1
+
+
+        prerequisite = {
+            focus = AUS_orchestrating_the_collapse
+        }    
+        completion_reward = {
+        }
+    }    
+
+    focus = {
+        id = AUS_convene_with_the_shadow_diet
+        icon = GFX_focus_usa_focus_on_europe
+        cost = 30
+        relative_position_id = AUS_orchestrating_the_collapse
         x = 1
         y = 1
+
+
         prerequisite = {
-            focus = AUS_the_peoples_freedom
+            focus = AUS_orchestrating_the_collapse
+        }    
+        completion_reward = {
         }
+    }    
+
+    focus = {
+        id = AUS_gotterdammerung
+        icon = GFX_focus_DEN_civilian_preparations
+        cost = 30
+        relative_position_id = AUS_orchestrating_the_collapse
+        x = -2
+        y = 2
+
+
         prerequisite = {
-            focus = AUS_the_clergys_fate
+            focus = AUS_preparing_for_the_worst
+        }    
+        prerequisite = {
+            focus = AUS_convene_with_the_shadow_diet
         }
-        relative_position_id = AUS_the_peoples_freedom
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = AUS_tempt_the_muscovites
+        icon = GFX_focus_SOV_third_rome
+        cost = 30
+        relative_position_id = AUS_orchestrating_the_collapse
+        x = -2
+        y = 3
+
+
+        prerequisite = {
+            focus = AUS_gotterdammerung
+        }    
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = AUS_requiem
+        icon = GFX_focus_ITA_moschettieri_del_duce
+        cost = 30
+        relative_position_id = AUS_orchestrating_the_collapse
+        x = 0
+        y = 2
+
+
+        prerequisite = {
+            focus = AUS_preparing_for_the_worst
+        }    
+        prerequisite = {
+            focus = AUS_convene_with_the_shadow_diet
+        }   
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = AUS_venetian_gambit
+        icon = GFX_focus_LAT_suspend_constitution_of_latvia
+        cost = 30
+        relative_position_id = AUS_orchestrating_the_collapse
+        x = 0
+        y = 3
+
+
+        prerequisite = {
+            focus = AUS_requiem
+        }    
+        completion_reward = {
+        }
+    }    
+
+    focus = {
+        id = AUS_palastinalied
+        icon = GFX_AUS_focus_Visit_Konigsberg
+        cost = 30
+        relative_position_id = AUS_orchestrating_the_collapse
+        x = 2
+        y = 2
+
+
+        prerequisite = {
+            focus = AUS_preparing_for_the_worst
+        }    
+        prerequisite = {
+            focus = AUS_convene_with_the_shadow_diet
+        }  
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = AUS_auslander
+        icon = GFX_focus_ARG_align_with_the_monroe_doctrine
+        cost = 30
+        relative_position_id = AUS_orchestrating_the_collapse
+        x = 2
+        y = 3
+
+
+        prerequisite = {
+            focus = AUS_palastinalied
+        }    
+        completion_reward = {
+        }
+    }    
+
+    focus = {
+        id = AUS_pray_to_god
+        icon = GFX_AUS_focus_Visit_Rome
+        cost = 30
+        relative_position_id = AUS_orchestrating_the_collapse
+        x = 0
+        y = 4
+
+        prerequisite = {
+            focus = AUS_tempt_the_muscovites
+        }    
+        prerequisite = {
+            focus = AUS_venetian_gambit
+        } 
+        prerequisite = {
+            focus = AUS_auslander
+        }             
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = AUS_ride_of_the_valkyries
+        icon = GFX_focus_spa_strengthen_the_supreme_reality_of_spain
+        cost = 30
+        relative_position_id = AUS_orchestrating_the_collapse
+        x = 0
+        y = 5
+
+        prerequisite = {
+            focus = AUS_pray_to_god
+        }    
+
+        completion_reward = {
+
+        }
+    }    
+
+    focus = {
+        id = AUS_pandemonium
+        icon = GFX_focus_NOR_empower_sivorg 
+        cost = 30
+
+        x = 0
+        y = 6
+        prerequisite = {
+            focus = AUS_ride_of_the_valkyries
+        }
+        relative_position_id = AUS_orchestrating_the_collapse
         completion_reward = {
             log = "[GetDateText]: [Root.GetName]: Focus AUS_neue_gesellschaft"
             country_event = Ausrudolf.16

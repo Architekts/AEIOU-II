@@ -130,7 +130,7 @@ guiTypes = {
 		buttonType = {
 			name = "country_leader"
 			quadTextureSprite ="GFX_leader_unknown"
-			position = { x = 17 y = 22 }
+			position = { x = 17 y = 17 }
 			scale=0.75
 			clicksound = click_checkbox
 		}
@@ -138,7 +138,7 @@ guiTypes = {
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_shield_medium"
-			position = { x = 28 y = 188 }
+			position = { x = 30 y = 188 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -152,7 +152,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "country_name"
-			position = { x = 8 y = 176 }
+			position = { x = 8 y = 178 }
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 131
@@ -625,7 +625,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "back_button"
-			position = { x = -158 y = -52 }
+			position = { x = -597 y = 80}
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "BACK"
 			buttonFont = "hoi_18mbs"
@@ -637,7 +637,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "select_button"
-			position = { x = 10 y = -52 }
+			position = { x = 452 y = 80 }
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "FE_SELECT_COUNTRY"
 			buttonFont = "hoi_18mbs"
@@ -649,7 +649,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name ="countries"
-			position = { x = 15 y = 45 }
+			position = { x = 15 y = 440 }
 			size = { width = -15 height = 120}
 
 			gridboxType = {
@@ -682,7 +682,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name ="countries_mini"
-			position = { x = 15 y = 340 }
+			position = { x = 15 y = 240 }
 			size = { width = -15 height = 120}
 
 			gridboxType = {
@@ -701,7 +701,7 @@ guiTypes = {
 		iconType = {
 			name = "minor_country_leader"
 			quadTextureSprite ="GFX_leader_unknown"
-			position = { x = 289 y = 441 }
+			position = { x = 460 y = 130 }
 			scale=0.696
 			rotation=-0.04
 		}
@@ -709,13 +709,13 @@ guiTypes = {
 		iconType = {
 				name ="minor_portrait_overlay"
 				spriteType = "GFX_minor_portrait_overlay"
-				position = { x= 280 y = 430 }
+				position = { x=450 y = 120 }
 		}
 
 
 		instantTextBoxType = {
 			name = "info_title"
-			position = { x = 10 y = 450 }
+			position = { x = 50 y = 74 }
 			font = "hoi4_typewriter22"
 			borderSize = {x = 0 y = 0}
 			text = "FE_COUNTRY_INFO_TITLE"
@@ -726,7 +726,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "info"
-			position = { x = 35 y = 485 }
+			position = { x = 35 y = 110 }
 
 			instantTextBoxType = {
 				name = "leader_label"
@@ -751,7 +751,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ideology_label"
-				position = { x = 0 y = 35 }
+				position = { x = 0 y = 29 }
 				textureFile = ""
 				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
@@ -762,7 +762,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ideology"
-				position = { x = 0 y = 52 }
+				position = { x = 0 y = 46 }
 				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
@@ -771,7 +771,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "government_label"
-				position = { x = 0 y = 75 }
+				position = { x = 0 y = 63 }
 				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				text = "GOVERNMENT"
@@ -781,7 +781,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "government"
-				position = { x = 0 y = 92 }
+				position = { x = 0 y = 80 }
 				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				text = "FE_INTERESTING_COUNTRIES"
@@ -791,7 +791,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "elections_label"
-				position = { x = 0 y = 115 }
+				position = { x = 200 y = -5 }
 				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				text = "ELECTIONS"
@@ -801,7 +801,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "elections"
-				position = { x = 0 y = 132 }
+				position = { x = 200 y = 12 }
 				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
@@ -810,7 +810,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "party_label"
-				position = { x = 0 y = 155 }
+				position = { x = 200 y = 29 }
 				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				text = "RULING_PARTY"
@@ -820,7 +820,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "party"
-				position = { x = 0 y = 172 }
+				position = { x = 200 y = 46 }
 				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
@@ -830,7 +830,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "nation_title"
-			position = { x = 442 y = 421 }
+			position = { x = 650 y = 85 }
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 340
@@ -841,7 +841,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "spirit"
-			position = { x = 451 y = 475 }
+			position = { x = 25 y = 230 }
 
 			iconType ={
 				name ="pol_faction_icon"
@@ -852,7 +852,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name ="ideas"
-				position = { x = 91 y = -1 }
+				position = { x = 110 y = 230}
 				size = { width = 100%% height = 70 }
 
 				gridboxType = {
@@ -868,7 +868,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name ="focus"
-				position = { x = 9 y = 85 }
+				position = { x = 400 y = 250 }
 				size = { width = 100% height = 100 }
 
 				gridboxType = {
@@ -885,7 +885,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "history_title"
-			position = { x = 830 y = 450 }
+			position = { x = 650 y = 70 }
 			font = "hoi4_typewriter22"
 			borderSize = {x = 0 y = 0}
 			text = "FE_COUNTRY_HISTORY_TITLE"
@@ -896,10 +896,10 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "history"
-			position = { x = 810 y = 490 }
+			position = { x = 585 y = 125 }
 			font = "hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 380
+			maxWidth = 600
 			maxHeight = 30
 			format = left
 		}
@@ -970,7 +970,7 @@ guiTypes = {
 
 		gridboxtype = {
 			name = "spirit_grid"
-			position = { x = 253 y = 30 }
+			position = { x = 273 y = 30 }
 			size = { width = 300 height = 68 }
 			slotsize = { width = 60 height = 68 }
 			max_slots = { x = 5 y = 1 }
@@ -979,7 +979,7 @@ guiTypes = {
 
 		gridboxtype = {
 			name = "spirit_grid_over_defined"
-			position = { x = 253 y = 28 }
+			position = { x = 273 y = 28 }
 			size = { width = 330 height = 68 }
 			slotsize = { width = 33 height = 34 }
 			max_slots = { x = 6 y = 2 }
@@ -988,7 +988,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "political_pie_chart"
-			position = { x= 185 y = 40 }
+			position = { x= 205 y = 40 }
 			size = { width=100 height=100 }
 			clipping = no
 

@@ -3,7 +3,7 @@ state = {
 	name = "STATE_231"
 
 	history = {
-		owner = TST
+		owner = KAK
 		victory_points = {
 			1599 5 
 		}
@@ -13,7 +13,6 @@ state = {
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			air_base = 3
 			3653 = {
 				naval_base = 2
 				coastal_bunker = 1
@@ -21,15 +20,7 @@ state = {
 			}
 
 		}
-		add_core_of = TST
-		add_core_of = TST
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 2
-
-			}
-
-		}
+		add_core_of = KAK
 
 	}
 

@@ -1694,3 +1694,7 @@ FRC = {
 	color_ui = rgb { 141 38 38 }
 }
 
+GDH = {
+	color = rgb { 207 150 66 }
+	color_ui = rgb { 207 150 66 }
+}

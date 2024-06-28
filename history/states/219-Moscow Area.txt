@@ -10,17 +10,16 @@ state={
 	}
 
 	history={
-		owner = TST
+		owner = RUS
 		victory_points = {
 			6380 50 
 		}
 		buildings = {
 			infrastructure = 4 #was: 8
-			arms_factory = 7
+			arms_factory = 4
 			industrial_complex = 3
-			air_base = 10
 		}
-		add_core_of = TST
+		add_core_of = RUS
 	}
 
 	provinces={
