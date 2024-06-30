@@ -1,0 +1,25 @@
+﻿capital = 651 #Oyrot/Gorno-Altaysk
+
+#oob = "ALT_1936"
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = absolutist
+	elections_allowed = no
+}
+set_popularities = {
+	absolutist = 100
+}
+
+
+
+
+
+
+

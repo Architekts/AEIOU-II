@@ -16,51 +16,52 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-	declare_war_on = {
-	target = VNC
-	type = annex_everything
-	}
-	HAN = {
-	country_event = {
-	id = HanTradeLeague.1
-	# Hanover attacks Bremen and Hamburg
+		declare_war_on = {
+			target = VNC
+			type = annex_everything
 		}
-	}
-	OLD = {
-	country_event = {
-	id = OldTradeLeague.1
-	# Oldenburg attacks Bremen
+		HAN = {
+			country_event = {
+				id = HanTradeLeague.1
+				# Hanover attacks Bremen and Hamburg
+			}
 		}
-	}
-	MCK = {
-	country_event = {
-	id = MckTradeLeague.1
-	# Mecklenburg attacks Lubeck
+		OLD = {
+			country_event = {
+				id = OldTradeLeague.1
+				# Oldenburg attacks Bremen
+			}
 		}
-	}
-	PRS = {	
-	country_event = {
-	id = PrsTradeLeague.1
-	# Teutonic Order attacks Danzig
+		MCK = {
+			country_event = {
+				id = MckTradeLeague.1
+				# Mecklenburg attacks Lubeck
+			}
 		}
-	}
-	COU = {
-	country_event = {
-	id = CouTradeLeague.1
-	# Livonian Order attacks Riga
+		PRS = {	
+			country_event = {
+				id = PrsTradeLeague.1
+				# Teutonic Order attacks Danzig
+			}
 		}
-	}
-	PIE = {
-	country_event = {
-	id = PieTradeLeague.1
-	# Savoy attacks Genoa
+		COU = {
+			country_event = {
+				id = CouTradeLeague.1
+				# Livonian Order attacks Riga
+			}
 		}
-	}
-	SPR = {
-	country_event = {
-	id = SpainGibraltar.1
-	days = 10
-	# Spain moves in to take Gibraltar
+		PIE = {
+		country_event = {
+		id = PieTradeLeague.1
+		# Savoy attacks Genoa
+			}
+		}
+		SPR = {
+		country_event = {
+		id = SpainGibraltar.1
+		days = 10
+		# Spain moves in to take Gibraltar
+			}
 		}
 	}
 }
@@ -149,6 +150,42 @@ country_event = { # Savoy Declines
 
 	option = {
 		name = Declined.6.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+
+country_event = { # intro event
+	id = HabsburgEvent.2
+	title = HabsburgEvent.2.t
+	desc = HabsburgEvent.2.d
+	picture = GFX_report_event_generic_parliament
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = HabsburgEvent.2.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { # intro event
+	id = HabsburgEvent.3
+	title = HabsburgEvent.3.t
+	desc = HabsburgEvent.3.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = HabsburgEvent.3.a
 		ai_chance = {
 			factor = 100
 		}

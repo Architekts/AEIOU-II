@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = TST
+		owner = BSK
 		victory_points = {
 			1821 5
 		}
@@ -15,15 +15,9 @@ state={
 			infrastructure = 3 #was: 6
 			arms_factory = 2
 			industrial_complex = 1
-			air_base = 1
 
 		}
-		add_core_of = TST
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-			}
-		}
+		add_core_of = BSK
 	}
 
 	provinces={

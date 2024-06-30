@@ -30,13 +30,6 @@ guiTypes = {
 				spriteType = "GFX_diplo_upper_win_bg"
 			}
 
-			iconType = {
-				name = "diplo_country_flag"
-				quadTextureSprite ="GFX_shield_small"
-				position = { x= 110 y = -5 }
-				Orientation = "UPPER_LEFT"
-			}
-
 			iconType ={
 				name = "ideology_icon"
 				spriteType = "GFX_ideology_unknown"
@@ -211,23 +204,23 @@ guiTypes = {
 
 			#------------------------- RELATIONS TAB ----------------------------
 
-
 			containerWindowType = {
 				name = "diplomacy_tab_top"
 				position = { x=0 y= 110 }
 
 				iconType = {
 					name = "leader_portrait"
-					position = { x = 20 y = 10 }
+					position = { x = 125 y = 10 }
 					spriteType = "GFX_leader_unknown"
-					scale = 0.74
+					scale = 0.7
 				}
 
 				iconType = {
 					name = "diplo_leader_frame"
-					position = { x = 13 y = 0 }
+					position = { x = 115 y = 0 }
 					spriteType = "GFX_diplo_leader_frame"
 					alwaystransparent = yes
+					scale = 0.85
 				}
 
 				iconType = {
@@ -239,7 +232,7 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "political_pie_chart"
-					position = { x = 141 y = 9 }
+					position = { x = 75 y = -115 }
 					size = { width=330 height=30 }
 					clipping = no
 
@@ -306,7 +299,7 @@ guiTypes = {
 
 					iconType = {
 						name = "goal_icon"
-						position = { x = 48 y = 39 }
+						position = { x = 331 y = -43 }
 						spriteType = "GFX_goal_unknown"
 						centerposition = yes
 						scale = 0.9
@@ -339,7 +332,12 @@ guiTypes = {
 					}
 				}
 			}
-
+			iconType = {
+				name = "diplo_country_flag"
+				quadTextureSprite ="GFX_shield_medium"
+				position = { x= 20 y = 110 }
+				Orientation = "UPPER_LEFT"
+			}
 
 			containerWindowType = {
 				name = "relations_info"

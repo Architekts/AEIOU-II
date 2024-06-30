@@ -1,0 +1,95 @@
+﻿l_english:
+
+ ###Political Advisors
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ ###Decisions
+
+ ###Ideas
+
+
+ ###Focus Tree
+AUS_rudolphs_troubled_mind:0 "Rudolph's Troubled Mind"
+AUS_rudolphs_troubled_mind_desc:0 ""
+
+AUS_epiphany:0 "Epiphany"
+AUS_epiphany_desc:0 "While attending his monthly theraputic session, Rudolph comes to a grim realization..."
+
+AUS_orchestrating_the_collapse:0 "Orchestrating the Collapse"
+AUS_orchestrating_the_collapse_desc:0 "In order to break Europe free from a slow death, we must strategically eliminate the Trade Leagues, who leave the world economy in a stagnant condition. We cannot do this alone, so we must bring the band together to play the requiem of the guild's demise"
+
+AUS_preparing_for_the_worst:0 "Preparing for the Worst"
+AUS_preparing_for_the_worst_desc:0 ""
+
+AUS_convene_with_the_shadow_diet:0 "Convene with the Shadow Diet"
+AUS_convene_with_the_shadow_diet_desc:0 ""
+
+AUS_convene_with_the_shadow_diet:0 "Convene with the Shadow Diet"
+AUS_convene_with_the_shadow_diet_desc:0 ""
+
+ ### EVENTS ###
+
+ ## Rudolf ##
+
+ HabsburgEvent.2.t:0 "Rudolf's Troubled Mind"
+ HabsburgEvent.2.d:0 "After Rudolf's ascension to the throne and success in ensuring the continuation of the Austrian Hegemony over the Habsburg domain, he is disappointed by the state of Europe as a whole\n\nA reformist at heart, Rudolf had dreams of bringing great change to the Empire, but his eagerness is not shared by the rest of his constituents. Europe gets slower and fatter every day, completely complacent in their debauchery, hedonism, and traditionalism.\n\nAdmitedly, Rudolf was a participant of this sin in his youth from his frequent visits with women of the night, but thanks to his wonderul wife and secretly attending theraputic sessions with an up-and-coming psychologist, Sigmund Freud, he was able to break free from those vices.\n\nBut, Europe remains enthralled. As slow as it may be, business goes on as usual and life goes on. Rudolf just fears the day that the rest of the world outpaces Europe, and finally we pay for our insolence"
+ HabsburgEvent.2.a:0 "Maybe one day, there will be change..."
+
+ HabsburgEvent.3.t:0 "Epiphany"
+ HabsburgEvent.3.d:0 "The Emperor met with Sigmund Freud on a Sunday afternoon in one of the many Habsburg manors in the Alpine region. Rudolf could not be seen in public consulting with psychologists as his enemies would weaponize this to slander him. So, taking a break to breathe some mountain air, while airing some grievances would do well to clear the mind.\n\nRudolf laments to Freud about the state of the world. He feels like things as a whole have been moving at such a slow pace; with too much bureaucracy and conservative traditions serving as chains around our ankles while the rest of the world grows ever-more competent to challenge our order. He sarcastically says that he cannot even have a shipment of grain sent out without dealing with the Genoans and Venetians, nor receive a shipment of cod without arguing with the guildsmen of the Hansa. Even if an agreement is made, it takes forever to get where it needs to go because of the pitiful state of naval technology. Everyone has gotten so complacent about things that they would accept the Ottoman Janissaries marching in so long as the trains ran on time. If only Europe could awaken from this slump, who knows what all can be achieved?\n\nRudolf grew quiet for a moment, and Freud looked up from his notes. The emperor sat up, as he came to an epiphany. The world is being held back by these archaic systems, and it could be broken. The key is to break the trade leagues, the heart of the world economy that beats slower and slower as time goes on. To remove this cancer would cause a great struggle, no doubt, but it from the struggle comes a desire to prevail. To conquer this would lead to a thriving Europe, liberated by a free economy. He paid Sigmund for his time and left to convene with his closest advisors."
+ HabsburgEvent.3.a:0 "We had the power all along"
+
+
+
+########## focuses
+
+AUS_rudolphs_troubled_mind:0 "Rudolph's Troubled Mind"
+AUS_rudolphs_troubled_mind_desc:0 ""
+
+AUS_epiphany:0 "Epiphany"
+AUS_epiphany_desc:0 "While attending his monthly theraputic session, Rudolph comes to a grim realization..."
+
+AUS_orchestrating_the_collapse:0 "Orchestrating the Collapse"
+AUS_orchestrating_the_collapse_desc:0 "In order to break Europe free from a slow death, we must strategically eliminate the Trade Leagues, who leave the world economy in a stagnant condition. We cannot do this alone, so we must bring the band together to play the requiem of the guild's demise"
+
+AUS_preparing_for_the_worst:0 "Preparing for the Worst"
+AUS_preparing_for_the_worst_desc:0 ""
+
+AUS_convene_with_the_shadow_diet:0 "Convene with the Shadow Diet"
+AUS_convene_with_the_shadow_diet_desc:0 ""
+
+AUS_nibelungenlied:0 "Nibelungenlied"
+AUS_nibelungenlied_desc:0 "In the story of the Nibelungenlied, the legendary Siegfried who was thought to have impenetrable skin by bathing in the dragon's blood, was killed in a hunting trip by the thrust of a spear in one spot where a leaf covered him.\n\nRudolf will play the villian and take the hoard of gold, but he must also assemble his northern conspirators as well."
+
+########## #ideas
+

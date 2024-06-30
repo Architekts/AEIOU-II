@@ -7,13 +7,13 @@ state={
 	}
 
 	history={
-		owner = GDH
+		owner = KAZ
 		buildings = {
 			infrastructure = 3 #was: 5
 
 		}
-		add_core_of = GDH		
-		add_core_of = KAZ
+		add_core_of = KAZ		
+		add_core_of = GHD
 		victory_points = {
 			10256 3
 		}

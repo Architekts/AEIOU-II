@@ -10,11 +10,11 @@ state = {
 			12683 1 
 		}
 
-		owner = TST
+		owner = KRK
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = TST
+		add_core_of = KRK
 
 	}
 

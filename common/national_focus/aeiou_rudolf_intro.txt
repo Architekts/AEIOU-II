@@ -12,25 +12,25 @@ focus_tree = {
             tag = AUS
         }
     }
-    continuous_focus_position = { x = 50 y = 2000 }
+    continuous_focus_position = { x = 2270 y = 445 }
 
     focus = {
         id = AUS_rudolphs_troubled_mind
         icon = GFX_AUS_focus_The_Beginning
-        cost = 30
+        cost = 7
      
-        x = 15
+        x = 10
         y = 1
 
         completion_reward = {
-            country_event = Ausrudolf.1 
+            country_event = HabsburgEvent.2
         }
     }
   
     focus = {
         id = AUS_epiphany
         icon = GFX_focus_spr_anarchism_knows_no_borders
-        cost = 30
+        cost = 14
         relative_position_id = AUS_rudolphs_troubled_mind  
         x = 0
         y = 1
@@ -40,6 +40,7 @@ focus_tree = {
             focus = AUS_rudolphs_troubled_mind
         }    
         completion_reward = {
+            country_event = HabsburgEvent.3 
         }
     }
 
@@ -61,8 +62,8 @@ focus_tree = {
 
     focus = {
         id = AUS_preparing_for_the_worst
-        icon = GFX_focus_usa_focus_on_europe
-        cost = 30
+        icon = GFX_SPR_reversed_economy
+        cost = 45
         relative_position_id = AUS_orchestrating_the_collapse
         x = -1
         y = 1
@@ -77,8 +78,8 @@ focus_tree = {
 
     focus = {
         id = AUS_convene_with_the_shadow_diet
-        icon = GFX_focus_usa_focus_on_europe
-        cost = 30
+        icon = GFX_focus_generic_national_security
+        cost = 14
         relative_position_id = AUS_orchestrating_the_collapse
         x = 1
         y = 1
@@ -92,8 +93,8 @@ focus_tree = {
     }    
 
     focus = {
-        id = AUS_gotterdammerung
-        icon = GFX_focus_DEN_civilian_preparations
+        id = AUS_nibelungenlied
+        icon = GFX_focus_generic_pan_scandinavism
         cost = 30
         relative_position_id = AUS_orchestrating_the_collapse
         x = -2
@@ -108,20 +109,31 @@ focus_tree = {
         }
 
         completion_reward = {
+            979 = {
+                add_core_of = OLD
+                add_core_of = HAN
+            }
+            973 = {
+                add_core_of = MCK
+                add_core_of = HAN
+            }
+            972 = {
+                add_core_of = MCK
+            }
         }
     }
 
     focus = {
         id = AUS_tempt_the_muscovites
         icon = GFX_focus_SOV_third_rome
-        cost = 30
+        cost = 25
         relative_position_id = AUS_orchestrating_the_collapse
-        x = -2
+        x = 2
         y = 3
 
 
         prerequisite = {
-            focus = AUS_gotterdammerung
+            focus = AUS_palastinalied
         }    
         completion_reward = {
         }
@@ -129,8 +141,8 @@ focus_tree = {
 
     focus = {
         id = AUS_requiem
-        icon = GFX_focus_ITA_moschettieri_del_duce
-        cost = 30
+        icon = GFX_focus_generic_women_in_military
+        cost = 35
         relative_position_id = AUS_orchestrating_the_collapse
         x = 0
         y = 2
@@ -143,6 +155,10 @@ focus_tree = {
             focus = AUS_convene_with_the_shadow_diet
         }   
         completion_reward = {
+            974 = {
+                add_core_of = PIE
+            }
+
         }
     }
 
@@ -163,9 +179,25 @@ focus_tree = {
     }    
 
     focus = {
+        id = AUS_gotterdammerung
+        icon = GFX_focus_generic_conspiracy
+        cost = 30
+        relative_position_id = AUS_orchestrating_the_collapse
+        x = -2
+        y = 3
+
+
+        prerequisite = {
+            focus = AUS_nibelungenlied
+        }    
+        completion_reward = {
+        }
+    }  
+
+    focus = {
         id = AUS_palastinalied
         icon = GFX_AUS_focus_Visit_Konigsberg
-        cost = 30
+        cost = 25
         relative_position_id = AUS_orchestrating_the_collapse
         x = 2
         y = 2
@@ -181,26 +213,12 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = AUS_auslander
-        icon = GFX_focus_ARG_align_with_the_monroe_doctrine
-        cost = 30
-        relative_position_id = AUS_orchestrating_the_collapse
-        x = 2
-        y = 3
-
-
-        prerequisite = {
-            focus = AUS_palastinalied
-        }    
-        completion_reward = {
-        }
-    }    
+  
 
     focus = {
         id = AUS_pray_to_god
-        icon = GFX_AUS_focus_Visit_Rome
-        cost = 30
+        icon = GFX_focus_generic_pope
+        cost = 7
         relative_position_id = AUS_orchestrating_the_collapse
         x = 0
         y = 4
@@ -212,7 +230,7 @@ focus_tree = {
             focus = AUS_venetian_gambit
         } 
         prerequisite = {
-            focus = AUS_auslander
+            focus = AUS_gotterdammerung
         }             
 
         completion_reward = {
@@ -223,7 +241,7 @@ focus_tree = {
     focus = {
         id = AUS_ride_of_the_valkyries
         icon = GFX_focus_spa_strengthen_the_supreme_reality_of_spain
-        cost = 30
+        cost = 14
         relative_position_id = AUS_orchestrating_the_collapse
         x = 0
         y = 5
@@ -240,7 +258,7 @@ focus_tree = {
     focus = {
         id = AUS_pandemonium
         icon = GFX_focus_NOR_empower_sivorg 
-        cost = 30
+        cost = 7
 
         x = 0
         y = 6

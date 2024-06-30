@@ -26,12 +26,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	conservative = 35
-	liberal = 25
-	centrist = 5
-	communist = 4
-	weitlingist = 1
-	absolutist = 30
+	conservative = 30
+	liberal = 20
+	centrist = 25
+	weitlingist = 5
+	absolutist = 20
 	
 }
 
@@ -41,6 +40,14 @@ create_country_leader = {
 	name = "Lord Robert Cecil"
 	desc = "ENG_LEADER_DESC_CHARLES_DILKE"
 	picture = "Portrait_ENG_Robert_Gascoyne-Cecil.dds"
+	expire = "1999.1.1"
+	ideology = centrist_moderate
+}
+
+create_country_leader = {
+	name = "Lord Manchester"
+	desc = "ENG_LEADER_DESC_CHARLES_DILKE"
+	picture = "Portrait_ENG_fatso.dds"
 	expire = "1999.1.1"
 	ideology = conservative_moderate
 }
