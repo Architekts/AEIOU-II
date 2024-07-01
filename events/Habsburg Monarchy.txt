@@ -25,11 +25,17 @@ country_event = {
 				id = HanTradeLeague.1
 				# Hanover attacks Bremen and Hamburg
 			}
+			hidden_effect = {
+				add_ideas = aus_idea_total_economic_collapse
+			}			
 		}
 		OLD = {
 			country_event = {
 				id = OldTradeLeague.1
 				# Oldenburg attacks Bremen
+			}
+			hidden_effect = {
+				add_ideas = aus_idea_total_economic_collapse
 			}
 		}
 		MCK = {
@@ -37,11 +43,17 @@ country_event = {
 				id = MckTradeLeague.1
 				# Mecklenburg attacks Lubeck
 			}
+			hidden_effect = {
+				add_ideas = aus_idea_total_economic_collapse
+			}
 		}
 		PRS = {	
 			country_event = {
 				id = PrsTradeLeague.1
 				# Teutonic Order attacks Danzig
+			}
+			hidden_effect = {
+				add_ideas = aus_idea_total_economic_collapse
 			}
 		}
 		COU = {
@@ -49,18 +61,27 @@ country_event = {
 				id = CouTradeLeague.1
 				# Livonian Order attacks Riga
 			}
+			hidden_effect = {
+				add_ideas = aus_idea_total_economic_collapse
+			}
 		}
 		PIE = {
-		country_event = {
-		id = PieTradeLeague.1
-		# Savoy attacks Genoa
+			country_event = {
+				id = PieTradeLeague.1
+				# Savoy attacks Genoa
+			}
+			hidden_effect = {
+				add_ideas = aus_idea_total_economic_collapse
 			}
 		}
 		SPR = {
-		country_event = {
-		id = SpainGibraltar.1
-		days = 10
-		# Spain moves in to take Gibraltar
+			country_event = {
+				id = SpainGibraltar.1
+				days = 10
+				# Spain moves in to take Gibraltar
+			}
+			hidden_effect = {
+				add_ideas = aus_idea_total_economic_collapse
 			}
 		}
 	}
@@ -186,6 +207,42 @@ country_event = { # intro event
 
 	option = {
 		name = HabsburgEvent.3.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { # shadow diet
+	id = HabsburgEvent.4
+	title = HabsburgEvent.4.t
+	desc = HabsburgEvent.4.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = HabsburgEvent.4.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { # shadow diet
+	id = HabsburgEvent.5
+	title = HabsburgEvent.5.t
+	desc = HabsburgEvent.5.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = HabsburgEvent.5.a
 		ai_chance = {
 			factor = 100
 		}

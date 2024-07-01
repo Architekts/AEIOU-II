@@ -57,6 +57,8 @@ focus_tree = {
             focus = AUS_epiphany
         }    
         completion_reward = {
+            add_political_power = 100
+            add_war_support = 0.05
         }
     }
 
@@ -73,6 +75,7 @@ focus_tree = {
             focus = AUS_orchestrating_the_collapse
         }    
         completion_reward = {
+            add_ideas = aus_emercency_measures
         }
     }    
 
@@ -89,6 +92,7 @@ focus_tree = {
             focus = AUS_orchestrating_the_collapse
         }    
         completion_reward = {
+            country_event = HabsburgEvent.4
         }
     }    
 
@@ -158,7 +162,13 @@ focus_tree = {
             974 = {
                 add_core_of = PIE
             }
-
+            PIE = {
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 1500
+                    producer = AUS
+                }
+            }
         }
     }
 
@@ -191,6 +201,27 @@ focus_tree = {
             focus = AUS_nibelungenlied
         }    
         completion_reward = {
+            HAN = {
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 1500
+                    producer = AUS
+                }
+            }
+            OLD = {
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 1500
+                    producer = AUS
+                }
+            }
+            MCK = {
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 1500
+                    producer = AUS
+                }
+            }
         }
     }  
 
@@ -210,6 +241,7 @@ focus_tree = {
             focus = AUS_convene_with_the_shadow_diet
         }  
         completion_reward = {
+            
         }
     }
 
@@ -234,7 +266,7 @@ focus_tree = {
         }             
 
         completion_reward = {
-
+            country_event = HabsburgEvent.5
         }
     }
 
@@ -267,7 +299,6 @@ focus_tree = {
         }
         relative_position_id = AUS_orchestrating_the_collapse
         completion_reward = {
-            log = "[GetDateText]: [Root.GetName]: Focus AUS_neue_gesellschaft"
             country_event = Ausrudolf.16
             load_focus_tree = Austria_rudolf_reforms
         }

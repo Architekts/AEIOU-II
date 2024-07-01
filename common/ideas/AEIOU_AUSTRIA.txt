@@ -3670,9 +3670,50 @@ ideas = {
             } 
         }
 
+        aus_idea_total_economic_collapse = {
+            picture = FRA_extracontinental_agitation
+            allowed = {
+                always = no
+            }
 
+            allowed_civil_war = {
+                always = no
+            }
 
+            removal_cost = -1
 
+            modifier = {
+                political_power_factor = -0.30
+                stability_factor = -0.3
+            	war_support_factor = -0.3
+                supply_consumption_factor = 0.1
+                resistance_target = 0.25
+                consumer_goods_factor = 0.4
+                production_speed_arms_factory_factor = -0.5
+                production_speed_industrial_complex_factor = -0.5
+                production_factory_efficiency_gain_factor = -0.1
+            }
+        }
+
+        aus_emercency_measures = {
+            picture = FRA_extracontinental_agitation
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                consumer_goods_factor = -0.05
+                stability_factor = -0.05
+                production_factory_efficiency_gain_factor = 0.2
+                industrial_capacity_factory	= 0.2
+            }
+        }
 
 
 

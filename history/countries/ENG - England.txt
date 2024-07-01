@@ -46,7 +46,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Lord Manchester"
-	desc = "ENG_LEADER_DESC_CHARLES_DILKE"
+	desc = "ENG_LEADER_DESC_FATSO"
 	picture = "Portrait_ENG_fatso.dds"
 	expire = "1999.1.1"
 	ideology = conservative_moderate
