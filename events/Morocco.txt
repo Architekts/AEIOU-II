@@ -1,0 +1,68 @@
+add_namespace = MoroccoBorder
+
+country_event = {
+	id = MoroccoBorder.1
+	title = MoroccoBorder.1.t
+	desc = MoroccoBorder.1.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = MoroccoBorder.1.a
+		ai_chance = {
+			factor = 100
+		}
+		start_border_war = {
+			change_state_after_war = no
+			attacker = {
+				state = 461
+				num_provinces = 1
+				on_win = MoroccoBorder.2
+				on_lose = MoroccoBorder.3
+			}	
+			defender = {
+				state = 290
+				num_provinces = 1
+				on_win = VeniceBorder.2
+				on_lose = VeniceBorder.3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = MoroccoBorder.2
+	title = MoroccoBorder.2.t
+	desc = MoroccoBorder.2.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = MoroccoBorder.2.a
+		ai_chance = {
+			factor = 100
+		}
+		transfer_state = 290
+	}
+}
+
+country_event = {
+	id = MoroccoBorder.3
+	title = MoroccoBorder.3.t
+	desc = MoroccoBorder.3.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = MoroccoBorder.3.a
+		ai_chance = {
+			factor = 100
+		}
+		remove_state_core = 290
+		add_political_power = -150
+		add_stability = -0.1
+	}
+}

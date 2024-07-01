@@ -84,6 +84,16 @@ country_event = {
 				add_ideas = aus_idea_total_economic_collapse
 			}
 		}
+		MOR = {
+			country_event = {
+				id = MoroccoBorder.1
+				days = 15
+				# Morocco also moves in to take a core state of theirs
+			}
+			hidden_effect = {
+				add_ideas = aus_idea_total_economic_collapse
+			}
+		}
 	}
 }
 country_event = { # Hanover Declines
@@ -176,6 +186,21 @@ country_event = { # Savoy Declines
 		}
 	}
 }
+country_event = { # Muscovy Declines
+	id = Declined.7
+	title = Declined.7.t
+	desc = Declined.7.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = Declined.7.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
 
 
 country_event = { # intro event
@@ -245,6 +270,48 @@ country_event = { # shadow diet
 		name = HabsburgEvent.5.a
 		ai_chance = {
 			factor = 100
+		}
+	}
+}
+
+country_event = { # Teuton Deal
+	id = HabsburgEvent.6
+	title = HabsburgEvent.6.t
+	desc = HabsburgEvent.6.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = HabsburgEvent.6.a
+		ai_chance = {
+			factor = 100
+		}
+		PRS = {
+		country_event = {
+		id = Scheme.1
+			}
+		}
+	}
+}
+
+country_event = { # Muscovite Deal
+	id = HabsburgEvent.7
+	title = HabsburgEvent.7.t
+	desc = HabsburgEvent.7.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = HabsburgEvent.7.a
+		ai_chance = {
+			factor = 100
+		}
+		RUS = {
+		country_event = {
+		id = Scheme.1
+			}
 		}
 	}
 }

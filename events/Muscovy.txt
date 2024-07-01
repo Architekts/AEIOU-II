@@ -1,18 +1,18 @@
-add_namespace = PrsTradeLeague
 add_namespace = Scheme
+add_namespace = RusTradeLeague
 country_event = {
-	id = PrsTradeLeague.1
-	title = PrsTradeLeague.1.t
-	desc = PrsTradeLeague.1.d
+	id = RusTradeLeague.1
+	title = RusTradeLeague.1.t
+	desc = RusTradeLeague.1.d
 
 	fire_only_once = yes
 	is_triggered_only = yes
 
 	option = { # Accept!
-		name = PrsTradeLeague.1.a
+		name = RusTradeLeague.1.a
 		ai_chance = {
 			if = {
-			limit = { teutonscheme = 1 }
+			limit = { muscovitescheme = 1 }
 			factor = 100
 			}
 			else = {
@@ -20,15 +20,15 @@ country_event = {
 			}
 		}
 		declare_war_on = {
-		target = DAN
+		target = NOV
 		type = annex_everything
 		}
 	}
 	option = { # Decline...
-		name = PrsTradeLeague.1.b
+		name = RusTradeLeague.1.b
 		ai_chance = {
 			if = {
-			limit = { teutonscheme = 1 }
+			limit = { muscovitescheme = 1 }
 			factor = 0
 			}
 			else = {
@@ -37,7 +37,7 @@ country_event = {
 		}
 		AUS = {
 		country_event = {
-		id = Declined.4
+		id = Declined.7
 			}
 		}
 	}
@@ -53,16 +53,16 @@ country_event = {
 	option = { # Accept
 		name = Scheme.1.a
 		ai_chance = {
-			factor = 90
+			factor = 70
 		}
-		PRS = {
-		set_variable = { teutonscheme = 1 }
+		RUS = {
+		set_variable = { muscovitescheme = 1 }
 		}
 	}
 	option = { # Reject
 		name = Scheme.1.b
 		ai_chance = {
-			factor = 10
+			factor = 30
 		}
 	}
 }
