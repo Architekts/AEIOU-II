@@ -73,7 +73,7 @@ combat_hog_influence_trigger = {
 		NOT = {
 			OR = {
 				has_government = weitlingist 
-				has_government = communist
+				has_government = communism
 			}	
 		}
 	}

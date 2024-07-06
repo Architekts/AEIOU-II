@@ -20,6 +20,40 @@ country_event = {
 			target = VNC
 			type = annex_everything
 		}
+		hidden_effect = {
+			add_ideas = aus_idea_total_economic_collapse
+		}	
+
+		BRE = {
+			hidden_effect = {
+				add_ideas = aus_idea_total_economic_collapse
+				remove_ideas = hre_idea_conservative			
+			}				
+		}
+		HAM = {
+			hidden_effect = {
+				add_ideas = aus_idea_total_economic_collapse
+				remove_ideas = hre_idea_republic		
+			}	
+		}
+		LBK = {
+			hidden_effect = {
+				add_ideas = aus_idea_total_economic_collapse
+				remove_ideas = hre_idea_republic		
+			}	
+		}
+		DAN = {
+			hidden_effect = {
+				add_ideas = aus_idea_total_economic_collapse
+				remove_ideas = hre_idea_republic		
+			}	
+		}
+		RIG = {
+			hidden_effect = {
+				add_ideas = aus_idea_total_economic_collapse	
+			}	
+		}		
+
 		HAN = {
 			country_event = {
 				id = HanTradeLeague.1
@@ -48,14 +82,34 @@ country_event = {
 			}
 		}
 		PRS = {	
-			country_event = {
-				id = PrsTradeLeague.1
-				# Teutonic Order attacks Danzig
+			if = {
+				limit = {
+					has_country_flag = joinedAustriaScheme
+				}
+				country_event = {
+					id = PrsTradeLeague.2
+					# Teutonic Order attacks Danzig
+				}
+				clr_country_flag = joinedAustriaScheme
 			}
+
 			hidden_effect = {
 				add_ideas = aus_idea_total_economic_collapse
+				
 			}
 		}
+		RUS = {	
+			if = {
+				limit = {
+					has_country_flag = joinedAustriaScheme
+				}
+				country_event = {
+					id = RusTradeLeague.2
+					# muscovy attacks novgorod
+				}
+				clr_country_flag = joinedAustriaScheme
+			}
+		}		
 		COU = {
 			country_event = {
 				id = CouTradeLeague.1
@@ -87,12 +141,17 @@ country_event = {
 		MOR = {
 			country_event = {
 				id = MoroccoBorder.1
-				days = 15
+				days = 10
 				# Morocco also moves in to take a core state of theirs
 			}
 			hidden_effect = {
 				add_ideas = aus_idea_total_economic_collapse
 			}
+		}
+		VNC = {
+			hidden_effect = {
+				add_ideas = aus_idea_total_economic_collapse
+			}	
 		}
 	}
 }
@@ -276,8 +335,8 @@ country_event = { # shadow diet
 
 country_event = { # Teuton Deal
 	id = HabsburgEvent.6
-	title = HabsburgEvent.6.t
-	desc = HabsburgEvent.6.d
+	title = "Courting the Teutons"
+	desc = "The Teutonic Order is not an official part of the HRE and is reluctant to work with us. However, they are 'paladins without a cause' as the Northern Crusades ended long ago. An interesting offer was put together by the shadow diet, to where we would tempt them with the Greek holding in Rhodes, putting them in proximity of the long lost holy land."
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -288,8 +347,8 @@ country_event = { # Teuton Deal
 			factor = 100
 		}
 		PRS = {
-		country_event = {
-		id = Scheme.1
+			country_event = {
+				id = PrsTradeLeague.1
 			}
 		}
 	}
@@ -297,8 +356,8 @@ country_event = { # Teuton Deal
 
 country_event = { # Muscovite Deal
 	id = HabsburgEvent.7
-	title = HabsburgEvent.7.t
-	desc = HabsburgEvent.7.d
+	title = "Courting the Tsar"
+	desc = "In order to counter the goliath of the north, Novgorod, we will tempt the Tsar of Muscovy the opprotunity to strike when they least expect it"
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -309,9 +368,7 @@ country_event = { # Muscovite Deal
 			factor = 100
 		}
 		RUS = {
-		country_event = {
-		id = Scheme.1
-			}
+			country_event = RusTradeLeague.1
 		}
 	}
 }

@@ -36,7 +36,7 @@ set_popularities = {
 add_to_array = { national_religion_array =  2 }	
 
 create_country_leader = {
-	name = "Hermann von Sachsen-Weimar"
+	name = "Hermann von Sachsen-Weimar-Eisenach"
 	desc = "POLITICS_WILHELM_I_DESC"
 	picture = "Portrait_PRS_Hermann_Saxe_Weimar.dds"
 	expire = "1965.1.1"

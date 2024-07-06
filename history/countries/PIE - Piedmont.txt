@@ -19,7 +19,7 @@ set_politics = {
 }
 set_popularities = {
 	absolutist = 70
-	communist = 2
+	communism = 2
 	weitlingist = 2
 	socialist = 6
 	conservative = 10

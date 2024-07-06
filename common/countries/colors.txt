@@ -1718,3 +1718,8 @@ SMO = {
 	color = rgb { 158 122 93 }
 	color_ui = rgb { 158 122 93 }
 }
+
+VNN = {
+	color = rgb { 1 37 144 }
+	color_ui = rgb { 1 37 144 }
+}

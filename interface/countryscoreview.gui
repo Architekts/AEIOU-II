@@ -105,7 +105,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_main_lobby_button"
 				position = { x = 300 y = 700 }
 				buttonText = "Back"
-				buttonFont  = "hoi_18bs"
+				buttonFont  = "hoi_20bs"
 				frame = 1
 			}
 			buttonType = {
@@ -113,7 +113,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_main_lobby_button"
 				position = { x = 700 y = 700 }
 				buttonText = "Next"
-				buttonFont  = "hoi_18bs"
+				buttonFont  = "hoi_20bs"
 				frame = 1
 			}
 		buttonType = {

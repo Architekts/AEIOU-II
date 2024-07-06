@@ -28,7 +28,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_government = democratic
+		has_government = liberal
 		NOT = {
 			OR = {
 				has_war = yes
@@ -76,7 +76,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_government = democratic
+		has_government = liberal
 		has_war = no
 		OR = {
 			any_neighbor_country = {
@@ -134,9 +134,9 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = democratic
+		has_government = liberal
 		NOT = { has_idea = fascism_defeated }
-		fascism > 0.15
+		absolutist > 0.15
 	}
 	
 	option = {
@@ -153,7 +153,7 @@ country_event = {
 			}
 		}
 		add_popularity = {
-			ideology = fascism
+			ideology = absolutist
 			popularity = 0.1
 		}
 		set_country_flag = coalition_with_fascists
@@ -170,7 +170,7 @@ country_event = {
 		}
 		add_stability = -0.05
 		add_popularity = {
-			ideology = democratic
+			ideology = liberal
 			popularity = 0.03
 		}
 		set_country_flag = government_declined_fascists
@@ -187,7 +187,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = democratic
+		has_government = liberal
 		NOT = { has_idea = communism_defeated }
 		communism > 0.15
 	}
@@ -223,7 +223,7 @@ country_event = {
 		}
 		add_stability = -0.05
 		add_popularity = {
-			ideology = democratic
+			ideology = liberal
 			popularity = 0.03
 		}
 		set_country_flag = government_declined_communists
@@ -240,9 +240,9 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = democratic
-		democratic < 0.5
-		fascism < 0.5
+		has_government = liberal
+		liberal < 0.5
+		absolutist < 0.5
 		communism < 0.5
 	}
 	
@@ -256,7 +256,7 @@ country_event = {
 			}
 		}
 		add_popularity = {
-			ideology = fascism
+			ideology = absolutist
 			popularity = 0.1
 		}
 		set_country_flag = coalition_with_fascists
@@ -288,7 +288,7 @@ country_event = {
 			}
 		}
 		add_popularity = {
-			ideology = democratic
+			ideology = liberal
 			popularity = 0.05
 		}
 		add_political_power = -80
@@ -307,10 +307,10 @@ country_event = {
 	}
 
 	trigger = {
-		has_government = democratic
+		has_government = liberal
 		has_country_flag = coalition_with_fascists
 		any_other_country = {
-			has_government = fascism
+			has_government = absolutist
 			is_faction_leader = yes
 		}
 	}
@@ -330,7 +330,7 @@ country_event = {
 		}
 		random_other_country = {
 			limit = {
-				has_government = fascism
+				has_government = absolutist
 				is_faction_leader = yes
 			}
 			add_opinion_modifier = {
@@ -339,7 +339,7 @@ country_event = {
 			}			
 		}
 		add_popularity = {
-			ideology = fascism
+			ideology = absolutist
 			popularity = 0.05
 		}
 	}
@@ -355,7 +355,7 @@ country_event = {
 		}
 		add_stability = -0.05
 		add_popularity = {
-			ideology = democratic
+			ideology = liberal
 			popularity = 0.03
 		}
 	}
@@ -373,7 +373,7 @@ country_event = {
 	}
 
 	trigger = {
-		has_government = democratic
+		has_government = liberal
 		has_country_flag = coalition_with_communists
 		any_other_country = {
 			has_government = communism
@@ -422,7 +422,7 @@ country_event = {
 		}
 		add_stability = -0.05
 		add_popularity = {
-			ideology = democratic
+			ideology = liberal
 			popularity = 0.03
 		}
 	}
@@ -438,8 +438,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = democratic
-		fascism > 0.5
+		has_government = liberal
+		absolutist > 0.5
 		is_puppet = no
 	}
 	
@@ -449,7 +449,7 @@ country_event = {
 			base = 75			
 		}
 		set_politics = {
-			ruling_party = fascism
+			ruling_party = absolutist
 			elections_allowed = no
 		}
 	}
@@ -460,7 +460,7 @@ country_event = {
 			base = 35
 		}
 		start_civil_war = {
-			ideology = fascism
+			ideology = absolutist
 			size = 0.5
 		}
 	}
@@ -477,7 +477,7 @@ country_event = {
 
 	trigger = {
 
-		has_government = democratic
+		has_government = liberal
 		communism > 0.5
 		is_puppet = no
 	}
@@ -515,7 +515,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = democratic
+		has_government = liberal
 		has_idea_with_trait = motorized_equipment_manufacturer
 	}
 	
@@ -529,7 +529,7 @@ country_event = {
 			}
 		}
 		add_popularity = {
-			ideology = fascism
+			ideology = absolutist
 			popularity = 0.10
 		}
 	}
@@ -544,7 +544,7 @@ country_event = {
 			}
 		}
 		add_popularity = {
-			ideology = democratic
+			ideology = liberal
 			popularity = 0.05
 		}
 		remove_ideas_with_trait = motorized_equipment_manufacturer
@@ -561,7 +561,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = democratic
+		has_government = liberal
 		has_war = yes
 	}
 	
@@ -597,7 +597,7 @@ country_event = {
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = fascism
+			ideology = absolutist
 			popularity = 0.05
 		}
 	}
@@ -613,7 +613,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = democratic
+		has_government = liberal
 		has_war = yes
 		any_war_score < 20
 	}
@@ -651,7 +651,7 @@ country_event = {
 			popularity = 0.07
 		}
 		add_popularity = {
-			ideology = fascism
+			ideology = absolutist
 			popularity = 0.07
 		}
 	}
@@ -667,8 +667,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = fascism
-		fascism > 0.5
+		has_government = absolutist
+		absolutist > 0.5
 	}
 	
 	option = {
@@ -687,8 +687,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = fascism
-		NOT = { fascism > 0.5 }
+		has_government = absolutist
+		NOT = { absolutist > 0.5 }
 	}
 	
 	option = {

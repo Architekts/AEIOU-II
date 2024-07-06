@@ -11,7 +11,7 @@ state={
 	state_category = city
 
 	history={
-		owner = BOU
+		owner = VNN
 		victory_points = {
 			6613 20
 		}
@@ -20,7 +20,7 @@ state={
 			arms_factory = 1
 			industrial_complex = 2
 		}
-		add_core_of = BOU
+		add_core_of = VNN
 		add_core_of = FRA
 	}
 

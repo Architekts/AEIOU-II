@@ -68,7 +68,7 @@ ideologies = {
 		ai_communist = yes
 	}
 
-	communist = {
+	communism = {
 		types = {
 			communist_moderate = {
 			}

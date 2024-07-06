@@ -17,7 +17,7 @@ set_technology = {
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
-	militia = 1
+	#militia = 1
 }
 
 if = {

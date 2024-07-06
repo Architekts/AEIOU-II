@@ -25,9 +25,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Giorgio Manin"
-	desc = "VNC_LEADER_DESC_GIORGIO"
-	picture = "Portrait_VNC_Giorgio_Manin.dds"
+	name = "Lorenzo Contarini"
+	desc = "VNC_LEADER_DESC_CONTARINI"
+	picture = "Portrait_VNC_Contarini.dds"
 	expire = "1965.1.1"
 	ideology = conservative_moderate
 	traits = {

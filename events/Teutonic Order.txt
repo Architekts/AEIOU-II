@@ -1,68 +1,103 @@
 add_namespace = PrsTradeLeague
-add_namespace = Scheme
+
 country_event = {
 	id = PrsTradeLeague.1
 	title = PrsTradeLeague.1.t
 	desc = PrsTradeLeague.1.d
 
-	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = { # Accept!
-		name = PrsTradeLeague.1.a
+	option = {
+		name = "we Accept"
 		ai_chance = {
-			if = {
-			limit = { teutonscheme = 1 }
-			factor = 100
-			}
-			else = {
-			factor = 25
+			factor = 0
+			modifier = {
+				add = 10
+				has_opinion = {
+					target = AUS
+					value < 20
+				}
 			}
 		}
-		declare_war_on = {
-		target = DAN
-		type = annex_everything
+		PRS = {
+			set_country_flag = joinedAustriaScheme
+		}
+		AUS = {
+			country_event = PrsTradeLeague.3
 		}
 	}
-	option = { # Decline...
-		name = PrsTradeLeague.1.b
+
+	option = {
+		name = "we decline"
 		ai_chance = {
-			if = {
-			limit = { teutonscheme = 1 }
-			factor = 0
-			}
-			else = {
-			factor = 75
+			factor = 20
+			modifier = {
+				add = -20
+				has_opinion = {
+					target = AUS
+					value > 20
+				}
 			}
 		}
 		AUS = {
-		country_event = {
-		id = Declined.4
+			country_event = {
+				id = Declined.4
 			}
 		}
 	}
 }
+
 country_event = {
-	id = Scheme.1
-	title = Scheme.1.t
-	desc = Scheme.1.d
+	id = PrsTradeLeague.2
+	title = PrsTradeLeague.2.t
+	desc = PrsTradeLeague.2.d
 	
-	fire_only_once = yes
 	is_triggered_only = yes
 
 	option = { # Accept
-		name = Scheme.1.a
+		name = PrsTradeLeague.2.a
 		ai_chance = {
 			factor = 90
 		}
 		PRS = {
-		set_variable = { teutonscheme = 1 }
+			declare_war_on = {
+				target = DAN
+				type = annex_everything
+			}
 		}
 	}
-	option = { # Reject
-		name = Scheme.1.b
+}
+
+country_event = {
+	id = PrsTradeLeague.3
+	title = "The Teutons Accept"
+	desc = "The Teutonic Order has accepted our offer in participating in the scheme in exchange for receiving Rhodes. An emissary is sent to Constantinople with the royal decree from the Emperor himself."
+	
+	is_triggered_only = yes
+
+	option = { # Accept
+		name = "Very Good..."
 		ai_chance = {
-			factor = 10
+			factor = 90
 		}
+		GRE = {
+			country_event = PrsTradeLeague.4
+		}
+	}
+}
+
+country_event = {
+	id = PrsTradeLeague.4
+	title = "Emissary from Vienna"
+	desc = PrsTradeLeague.4.d
+	
+	is_triggered_only = yes
+
+	option = { # Accept
+		name = "Whatever you say, cousin."
+		ai_chance = {
+			factor = 90
+		}
+		PRS = { transfer_state = 164 }
 	}
 }

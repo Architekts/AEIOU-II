@@ -96,7 +96,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "hog_skill_level"
 			position = { x = 0 y = 90 }
-			font = "hoi_30bs"
+			font = "hoi_20bs"
 			text = "[GetHOGSkill]"
 			format = centre
 			fixedsize = yes
@@ -107,7 +107,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "hog_political_skill_level"
 			position = { x = 65 y = 180 }
-			font = "hoi_18bs"
+			font = "hoi_20bs"
 			text = "[GetHOGPoliticalSkill]"
 			format = centre
 			fixedsize = yes
@@ -118,7 +118,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "hog_unity_skill_level"
 			position = { x = 125 y = 180 }
-			font = "hoi_18bs"
+			font = "hoi_20bs"
 			text = "[GetHOGUnitySkill]"
 			format = centre
 			fixedsize = yes
@@ -129,7 +129,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "hog_industrial_skill_level"
 			position = { x = 65 y = 270 }
-			font = "hoi_18bs"
+			font = "hoi_20bs"
 			text = "[GetHOGIndustrialSkill]"
 			format = centre
 			fixedsize = yes
@@ -140,7 +140,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "hog_military_skill_level"
 			position = { x = 125 y = 270 }
-			font = "hoi_18bs"
+			font = "hoi_20bs"
 			text = "[GetHOGMilitarySkill]"
 			format = centre
 			fixedsize = yes
@@ -249,7 +249,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "hre_emperor"
 			position = { x = 100 y = 60 }
-			font = "hoi_18bs"
+			font = "hoi_20bs"
 			text = "Imperial Authority"
 			format = left
 			fixedsize = yes
@@ -260,7 +260,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "hre_emperor_name"
 			position = { x = 55 y = 260 }
-			font = "hoi_18bs"
+			font = "hoi_20bs"
 			text = "[GetEmperorName]"
 			format = left
 			fixedsize = yes
@@ -271,7 +271,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "hre_elector"
 			position = { x = 55 y = 310 }
-			font = "hoi_18bs"
+			font = "hoi_20bs"
 			text = "[?global.hre_elector_amount|G0] Electors"
 			format = left
 			fixedsize = yes
@@ -282,7 +282,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "hre_prince"
 			position = { x = 80 y = 540 }
-			font = "hoi_18bs"
+			font = "hoi_20bs"
 			text = "[?global.hre_prince_amount|G0] Princes"
 			format = left
 			fixedsize = yes
@@ -293,7 +293,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "hre_free_city"
 			position = { x = 370 y = 540 }
-			font = "hoi_18bs"
+			font = "hoi_20bs"
 			text = "[?global.hre_free_city_amount|G0] Free Cities"
 			format = left
 			fixedsize = yes
@@ -451,7 +451,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "hre_actions"
 			position = { x = 700 y = 60 }
-			font = "hoi_18bs"
+			font = "hoi_20bs"
 			text = "Actions"
 			format = left
 			fixedsize = yes
@@ -462,7 +462,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "hre_actions_sub"
 			position = { x = 640 y = 180 }
-			font = "hoi_18bs"
+			font = "hoi_20bs"
 			text = HRE_ACTION_SUBSET
 			format = center
 			fixedsize = yes
@@ -541,7 +541,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "hre_actions_test"
 			position = { x = 0 y = -30 }
-			font = "hoi_18bs"
+			font = "hoi_20bs"
 			text = "[GetActionName]"
 			format = left
 			fixedsize = yes

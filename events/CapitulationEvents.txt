@@ -16,20 +16,20 @@ news_event = {
 			NOT = {
 				OR = {
 					AND = {
-						ROOT = { has_government = fascism }
-						FROM.FROM = { has_government = fascism }
+						ROOT = { has_government = absolutist }
+						FROM.FROM = { has_government = absolutist }
 					}
 					AND = {
-						ROOT = { has_government = democratic }
-						FROM.FROM = { has_government = democratic }
+						ROOT = { has_government = liberal }
+						FROM.FROM = { has_government = liberal }
 					}
 					AND = {
 						ROOT = { has_government = communism }
 						FROM.FROM = { has_government = communism }
 					}
 					AND = {
-						ROOT = { has_government = neutrality }
-						FROM.FROM = { has_government = neutrality }
+						ROOT = { has_government = apolitical }
+						FROM.FROM = { has_government = apolitical }
 					}
 				}
 			}
@@ -46,8 +46,8 @@ news_event = {
 		trigger = {
 			OR = {
 				AND = {
-					ROOT = { has_government = fascism }
-					FROM.FROM = { has_government = fascism }
+					ROOT = { has_government = absolutist }
+					FROM.FROM = { has_government = absolutist }
 				}
 				AND = {
 					ROOT = { has_government = communism }
@@ -127,20 +127,20 @@ news_event = {
 			NOT = {
 				OR = {
 					AND = {
-						ROOT = { has_government = fascism }
-						FROM.FROM = { has_government = fascism }
+						ROOT = { has_government = absolutist }
+						FROM.FROM = { has_government = absolutist }
 					}
 					AND = {
-						ROOT = { has_government = democratic }
-						FROM.FROM = { has_government = democratic }
+						ROOT = { has_government = liberal }
+						FROM.FROM = { has_government = liberal }
 					}
 					AND = {
 						ROOT = { has_government = communism }
 						FROM.FROM = { has_government = communism }
 					}
 					AND = {
-						ROOT = { has_government = neutrality }
-						FROM.FROM = { has_government = neutrality }
+						ROOT = { has_government = apolitical }
+						FROM.FROM = { has_government = apolitical }
 					}
 				}
 			}

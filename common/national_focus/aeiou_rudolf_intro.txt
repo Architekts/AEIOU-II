@@ -144,9 +144,7 @@ focus_tree = {
             focus = AUS_palastinalied
         }    
         completion_reward = {
-		country_event = {
-		id = HabsburgEvent.7
-		}
+		country_event = HabsburgEvent.7
         }
     }
 
@@ -248,9 +246,7 @@ focus_tree = {
             focus = AUS_convene_with_the_shadow_diet
         }  
         completion_reward = {
-            country_event = {
-		id = HabsburgEvent.6
-		}
+            country_event = HabsburgEvent.6
         }
     }
 
@@ -313,7 +309,7 @@ focus_tree = {
             country_event = {
 		id = Ausrudolf.16
 		}
-            load_focus_tree = Austria_rudolf_reforms
+            load_focus_tree = Austria_reforms1
         }
     }
 }

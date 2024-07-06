@@ -1,0 +1,25 @@
+ideas = {
+
+    country = {
+
+        VNC_run_on_the_banks = {
+            picture = AUS_winds_of_change
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                stability_factor = -0.05 
+                research_speed_factor = 0.04
+            }
+        }
+        
+
+    }
+}

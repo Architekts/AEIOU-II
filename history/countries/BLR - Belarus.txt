@@ -12,9 +12,9 @@ set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
 	tech_military_police = 1
-	grenade = 1
+	#grenade = 1
 
-	muskets1 = 1
+	
 	gw_artillery = 1
 	mass_assault = 1
 	fleet_in_being = 1

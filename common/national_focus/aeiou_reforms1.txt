@@ -1,0 +1,89 @@
+################
+###INTRO TREE###
+################
+
+focus_tree = {
+    id = Austria_reforms1
+
+    country = {
+        factor = 0
+    }
+    continuous_focus_position = { x = 2270 y = 445 }
+
+    focus = {
+        id = AUS_far_worse
+        icon = GFX_AUS_focus_The_Beginning
+        cost = 7
+     
+        x = 6
+        y = 1
+
+        completion_reward = {
+            country_event = HabsburgEvent.2
+        }
+    }
+  
+    focus = {
+        id = AUS_assess_the_damages
+        icon = GFX_focus_spa_strengthen_the_supreme_reality_of_spain
+        cost = 14
+        relative_position_id = AUS_far_worse
+        x = 0
+        y = 1
+
+        prerequisite = {
+            focus = AUS_far_worse
+        }    
+
+        completion_reward = {
+        }
+    }  
+
+    focus = {
+        id = AUS_camorra_sub_rosa
+        icon = GFX_focus_spa_strengthen_the_supreme_reality_of_spain
+        cost = 14
+        relative_position_id = AUS_assess_the_damages
+        x = -1
+        y = 1
+
+        prerequisite = {
+            focus = AUS_assess_the_damages
+        }    
+
+        completion_reward = {
+        }
+    }  
+
+    focus = {
+        id = AUS_declare_martial_law
+        icon = GFX_focus_spa_strengthen_the_supreme_reality_of_spain
+        cost = 14
+        relative_position_id = AUS_camorra_sub_rosa
+        x = -2
+        y = 1
+
+        prerequisite = {
+            focus = AUS_camorra_sub_rosa
+        }    
+
+        completion_reward = {
+        }
+    } 
+
+    focus = {
+        id = AUS_economy_in_shambles
+        icon = GFX_focus_spa_strengthen_the_supreme_reality_of_spain
+        cost = 14
+        relative_position_id = AUS_assess_the_damages
+        x = 1
+        y = 1
+
+        prerequisite = {
+            focus = AUS_assess_the_damages
+        }    
+
+        completion_reward = {
+        }
+    }  
+}

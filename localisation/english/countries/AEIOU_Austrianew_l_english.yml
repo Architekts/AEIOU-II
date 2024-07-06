@@ -73,7 +73,9 @@ AUS_convene_with_the_shadow_diet_desc:0 ""
  HabsburgEvent.4.d:0 "Under the guise of visiting the local bishopric, Rudolf has assembled his closest advisors and influencal men within the Austrian government completely loyal to his cause. In a tobacco smoke filled room, Rudolf describes to them the plot to break the world economy by destroying the trade leagues.\n\nThe men were stunned for a moment by the absurdity of the idea, thinking it was a joke at first, but after Rudolf's expression didn't change, they realized he was deadly serious.\n\nAfter some initial objections and the Emperor repeatively shutting them down, telling them it was inevitable, he asked them to devise ways for Austria to come out safely from this incident. An impossible task? Perhaps. But it's hard to say no to the Emperor.\n\nFor hours, they debated back and fourth about the effects of such an incident, countermeasures, and more importantly avenues of expansion (which excited both the capitalists and imperialists attending)\n\nForemost, a stockpile of resources should be collected immediately, because we won't be receiving goods anytime soon. Secondly, we should not only manipulate the German states to carry out the dirty job, but also foreign powers that stand to gain from the trade league's fall. Muscovy, the Teutons, and even the Americans were mentioned, but was discarded.\n\nOnce discussions concluded, the men tiredly left, but some also rushed to sell of any shares that were held in the trade leagues before the collapse to save their investments.\n\nThe emperor sits back in his chair in the empty room, and sighs."
  HabsburgEvent.4.a:0 "Good luck, gentlemen. We'll need it."
 
-
+ HabsburgEvent.5.t:0 "Midnight in Koln"
+ HabsburgEvent.5.d:0 "In the dark of a stormy night, a loud knock rings out at the cathedral at Koln. One of the monks of the"
+ HabsburgEvent.5.a:0 "Auf Wiedersehen, Wilhelm."
 
 ########## focuses
 
@@ -94,6 +96,9 @@ AUS_convene_with_the_shadow_diet_desc:0 ""
 
 AUS_nibelungenlied:0 "Nibelungenlied"
 AUS_nibelungenlied_desc:0 "In the story of the Nibelungenlied, the legendary Siegfried who was thought to have impenetrable skin by bathing in the dragon's blood, was killed in a hunting trip by the thrust of a spear in one spot where a leaf covered him.\n\nRudolf will play the villian and take the hoard of gold, but he must also assemble his northern conspirators as well."
+
+AUS_tempt_the_muscovites:0 "Tempt the Muscovites"
+AUS_tempt_the_muscovites_desc:0 ""
 
 ########## #ideas
 

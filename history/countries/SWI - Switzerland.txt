@@ -22,7 +22,7 @@ set_popularities = {
 	liberal = 15
 	socialist = 10
 	weitlingist = 10
-	communist = 5
+	communism = 5
 	revolutionary = 10
 }
 

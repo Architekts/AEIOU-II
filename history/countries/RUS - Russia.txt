@@ -14,7 +14,7 @@ set_technology = {
 	heavyinfantry_weapons = 1
 	#basic_cavalry = 1
 	#melee_improvements = 1
-	militia = 1
+	#militia = 1
 }	
 
 set_convoys = 200
@@ -29,7 +29,7 @@ set_popularities = {
 	absolutist = 40
 	despotist = 20
 	revolutionary = 16
-	communist = 4
+	communism = 4
 	theocratic = 10
 	liberal = 8
 	socialist = 2

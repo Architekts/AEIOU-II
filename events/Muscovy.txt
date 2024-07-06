@@ -1,68 +1,82 @@
-add_namespace = Scheme
-add_namespace = RusTradeLeague
+dd_namespace = RusTradeLeague
 country_event = {
 	id = RusTradeLeague.1
 	title = RusTradeLeague.1.t
 	desc = RusTradeLeague.1.d
 
-	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = { # Accept!
-		name = RusTradeLeague.1.a
+	option = {
+		name = "we Accept"
 		ai_chance = {
-			if = {
-			limit = { muscovitescheme = 1 }
-			factor = 100
-			}
-			else = {
-			factor = 25
+			factor = 0
+			modifier = {
+				add = 10
+				has_opinion = {
+					target = AUS
+					value < 50
+				}
 			}
 		}
-		declare_war_on = {
-		target = NOV
-		type = annex_everything
+		RUS = {
+			set_country_flag = joinedAustriaScheme
+		}
+		AUS = {
+			country_event = RusTradeLeague.3
 		}
 	}
-	option = { # Decline...
-		name = RusTradeLeague.1.b
+
+	option = {
+		name = "we decline"
 		ai_chance = {
-			if = {
-			limit = { muscovitescheme = 1 }
-			factor = 0
-			}
-			else = {
-			factor = 75
+			factor = 20
+			modifier = {
+				add = -20
+				has_opinion = {
+					target = AUS
+					value > 21
+				}
 			}
 		}
 		AUS = {
-		country_event = {
-		id = Declined.7
+			country_event = {
+				id = Declined.7
 			}
 		}
 	}
 }
 country_event = {
-	id = Scheme.1
-	title = Scheme.1.t
-	desc = Scheme.1.d
+	id = RusTradeLeague.2
+	title = RusTradeLeague.2.t
+	desc = RusTradeLeague.2.d
 	
-	fire_only_once = yes
 	is_triggered_only = yes
 
 	option = { # Accept
-		name = Scheme.1.a
+		name = RusTradeLeague.2.a
 		ai_chance = {
-			factor = 70
+			factor = 90
 		}
 		RUS = {
-		set_variable = { muscovitescheme = 1 }
+			declare_war_on = {
+				target = NOV
+				type = annex_everything
+			}
 		}
 	}
-	option = { # Reject
-		name = Scheme.1.b
+}
+
+country_event = {
+	id = RusTradeLeague.3
+	title = "The Muscovites Accept"
+	desc = "The Tsar has accepted our offer to join our scheme by attacking Novgorod."
+	
+	is_triggered_only = yes
+
+	option = { # Accept
+		name = "Surely this won't have any unforseen consequences"
 		ai_chance = {
-			factor = 30
+			factor = 90
 		}
 	}
 }

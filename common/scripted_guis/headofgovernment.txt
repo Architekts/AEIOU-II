@@ -515,7 +515,7 @@ scripted_gui = {
 						0 = {
 							modifier = {
 								add = 100
-								has_government = communist       
+								has_government = communism       
 							}
 							modifier = {
 								add = 100
@@ -578,7 +578,7 @@ scripted_gui = {
 				OR = {
 					has_government = revolutionary 
 					has_government = weitlingist  
-					has_government = communist  
+					has_government = communism  
 					has_government = totalitarian  
 					has_government = absolutist   
 				}

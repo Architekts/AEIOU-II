@@ -65,15 +65,15 @@ set_convoys = 20
 	}
 }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = apolitical
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	neutrality = 78
-	democratic = 10
-	fascism = 2
+	apolitical = 78
+	liberal = 10
+	absolutist = 2
 	communism = 10
 }
 
