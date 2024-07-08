@@ -1,4 +1,4 @@
-dd_namespace = RusTradeLeague
+add_namespace = RusTradeLeague
 country_event = {
 	id = RusTradeLeague.1
 	title = RusTradeLeague.1.t

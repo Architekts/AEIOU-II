@@ -10,7 +10,7 @@ country_event = {
 	option = { # Accept!
 		name = PieTradeLeague.1.a
 		ai_chance = {
-			factor = 75
+			factor = 100
 		}
 		declare_war_on = {
 		target = GEN
@@ -20,7 +20,7 @@ country_event = {
 	option = { # Decline...
 		name = PieTradeLeague.1.b
 		ai_chance = {
-			factor = 25
+			factor = 0
 		}
 		AUS = {
 		country_event = {

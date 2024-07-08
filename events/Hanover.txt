@@ -10,7 +10,7 @@ country_event = {
 	option = { # Accept!
 		name = HanTradeLeague.1.a
 		ai_chance = {
-			factor = 75
+			factor = 100
 		}
 		declare_war_on = {
 		target = BRE
@@ -24,7 +24,7 @@ country_event = {
 	option = { # Decline...
 		name = HanTradeLeague.1.b
 		ai_chance = {
-			factor = 25
+			factor = 0
 		}
 		AUS = {
 		country_event = {

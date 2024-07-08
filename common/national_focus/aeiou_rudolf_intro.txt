@@ -77,7 +77,10 @@ focus_tree = {
             focus = AUS_orchestrating_the_collapse
         }    
         completion_reward = {
-            add_ideas = aus_emercency_measures
+            add_timed_idea = {
+			idea = aus_emercency_measures
+			days = 150
+		} 
         }
     }    
 
@@ -190,6 +193,9 @@ focus_tree = {
             focus = AUS_requiem
         }    
         completion_reward = {
+            VNC = {
+                country_event = Venice.1
+            }
         }
     }    
 

@@ -37,29 +37,13 @@
 
  ###Ideas
 
-
- ###Focus Tree
-AUS_rudolphs_troubled_mind:0 "Rudolph's Troubled Mind"
-AUS_rudolphs_troubled_mind_desc:0 ""
-
-AUS_epiphany:0 "Epiphany"
-AUS_epiphany_desc:0 "While attending his monthly theraputic session, Rudolph comes to a grim realization..."
-
-AUS_orchestrating_the_collapse:0 "Orchestrating the Collapse"
-AUS_orchestrating_the_collapse_desc:0 "In order to break Europe free from a slow death, we must strategically eliminate the Trade Leagues, who leave the world economy in a stagnant condition. We cannot do this alone, so we must bring the band together to play the requiem of the guild's demise"
-
-AUS_preparing_for_the_worst:0 "Preparing for the Worst"
-AUS_preparing_for_the_worst_desc:0 ""
-
-AUS_convene_with_the_shadow_diet:0 "Convene with the Shadow Diet"
-AUS_convene_with_the_shadow_diet_desc:0 ""
-
-AUS_convene_with_the_shadow_diet:0 "Convene with the Shadow Diet"
-AUS_convene_with_the_shadow_diet_desc:0 ""
-
  ### EVENTS ###
 
  ## Rudolf ##
+
+ HabsburgEvent.1.t:0 "Ride of the Valkyries"
+ HabsburgEvent.1.d:0 "The plan has finally been set into motion. As agreed upon by all members of the conspiracy, we will strike at the trade leagues, destroying their economic influence by dividing and conquering their holdings.\n\nThe dockyards, trading posts, and other kinds of once-prospering enterprises by the guild systems have gone silent. Soon, mobs of soldiers either come and burn them to the ground, or local peasants ransack them for whatever goods were left behind.\n\nRudolf sits in his palace in Vienna with his face in his hands, resting on his desk.\n\nWas this the best thing to do? Was there anything we could've done differently?\n\nToo late to say now."
+ HabsburgEvent.1.a:0 "Havok!"
 
  HabsburgEvent.2.t:0 "Rudolf's Troubled Mind"
  HabsburgEvent.2.d:0 "After Rudolf's ascension to the throne and success in ensuring the continuation of the Austrian Hegemony over the Habsburg domain, he is disappointed by the state of Europe as a whole\n\nA reformist at heart, Rudolf had dreams of bringing great change to the Empire, but his eagerness is not shared by the rest of his constituents. Europe gets slower and fatter every day, completely complacent in their debauchery, hedonism, and traditionalism.\n\nAdmitedly, Rudolf was a participant of this sin in his youth from his frequent visits with women of the night, but thanks to his wonderul wife and secretly attending theraputic sessions with an up-and-coming psychologist, Sigmund Freud, he was able to break free from those vices.\n\nBut, Europe remains enthralled. As slow as it may be, business goes on as usual and life goes on. Rudolf just fears the day that the rest of the world outpaces Europe, and finally we pay for our insolence"
@@ -94,11 +78,50 @@ AUS_preparing_for_the_worst_desc:0 ""
 AUS_convene_with_the_shadow_diet:0 "Convene with the Shadow Diet"
 AUS_convene_with_the_shadow_diet_desc:0 ""
 
+AUS_requiem:0 "Requiem for Italia"
+AUS_requiem_desc:0 "Venice and Genoa have held their influence on the Italian peninsula for far too long. We will send them into an early grave, with a nice composition playing during their funerary Mass."
+
 AUS_nibelungenlied:0 "Nibelungenlied"
 AUS_nibelungenlied_desc:0 "In the story of the Nibelungenlied, the legendary Siegfried who was thought to have impenetrable skin by bathing in the dragon's blood, was killed in a hunting trip by the thrust of a spear in one spot where a leaf covered him.\n\nRudolf will play the villian and take the hoard of gold, but he must also assemble his northern conspirators as well."
 
 AUS_tempt_the_muscovites:0 "Tempt the Muscovites"
-AUS_tempt_the_muscovites_desc:0 ""
+AUS_tempt_the_muscovites_desc:0 "The Hanseatic League's "
+
+AUS_gotterdammerung:0 "Gotterdammerung"
+AUS_gotterdammerung_desc:0 "If we are bringing Ragnarok to the northern league, it's only fair that we give the conspirators carring out the acts means of carrying it out."
+
+AUS_venetian_gambit:0 "Venetian Gambit"
+AUS_venetian_gambit_desc:0 "After observing some influential stockholders (who were knowledgeable of the plot) rush to sell their shares in the Venetian Trade Companies, the shadow diet have orchestrated a scheme to overwhelm the Venetians.\n\nBy creating a 'run on the bank' by feeding false information to the majority shareholders to sell their large numbers of company stocks, tanking the price and at the same time creating accidents/incidents at their trading ports to cause mass hysteria.\n\nWe should be sure to launch this plan at the right time, as it won't last forever as it wont take very long for the Venetians to sort out the mess."
+
+AUS_pray_to_god:0 "Pray to God"
+AUS_pray_to_god_desc:0 "On a stormy night in Cologne Cathedral, there is a knock on the door.."
+
+AUS_ride_of_the_valkyries:0 "Ride of the Valkries"
+AUS_ride_of_the_valkyries_desc:0 "The time has come for the birds to take flight and strike at the parasites that plague Europe. Like a pheonix rising from the ashes, Europe will come to see a new golden age after this self-inflicted crisis"
+
+AUS_pandemonium:0 "Pandemonium"
+AUS_pandemonium_desc:0 "And so begins the times of great turmoil..."
+
+AUS_far_worse:0 "Worse than We Thought"
+AUS_far_worse_desc:0 "...and now we face the consequences"
+
+AUS_assess_the_damages:0 "Assessing the Damages"
+AUS_assess_the_damages_desc:0 "We'll send some surveyors out into the provinces and bring in financial analysts to determine the effect of the economic collapse within our internal sphere. Hopefully out preperations managed to mitigate some of the damages. "
+
+AUS_camorra_sub_rosa:0 "Camorra Sub Rosa"
+AUS_camorra_sub_rosa_desc:0 "The ancient merchant families of Venice have not taken too kindly to our occupation of their homeland.\n\nActing in secrecy, they have organized a shadow organization, known as the Camorra. They evade Imperial authorities by smuggling and carrying out terror campaigns to fight against our occupation."
+
+AUS_declare_martial_law:0 "Declare Martial Law"
+AUS_declare_martial_law_desc:0 "We need to sever this festering problem in Venice before it grows further inside of our borders. Isolating the rebellious territories by granting the military administration over the regions, we can begin to sort out the troublemakers from the bunch"
+
+AUS_round_em_up:0 "Round 'em Up!"
+AUS_round_em_up_desc:0 "Making an example of some of the street-rabble will show we mean business. Cleaning up the streets will eliminate part of the problem."
+
+AUS_emergency_censorship:0 "Censorship"
+AUS_emergency_censorship_desc:0 "Partisan-leaning printshops will be seized by Imperial censors to prevent further poisoning of the proles minds."
+
+AUS_dealing_with_the_mafia:0 "Dealing with the Godfathers"
+AUS_dealing_with_the_mafia_desc:0 "After establishing some countermeasures, we believe that now is the time to target the leaderships of these crime families.\n\nThe top dogs of Camorra are the patriarchs of the ancient families and influencal burghers left behind after the exodus of the Venetian government.\n\nWhile the obvious solution would be to gather them up and put them behind bars, another option is to re-integrate them with partial restoration of their estates and holdings so long as they remain obediant to our vision. It never hurts to have experienced businessmen in our ranks, but it just depends on how forgiving we are."
 
 ########## #ideas
 

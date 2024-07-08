@@ -1,0 +1,21 @@
+add_namespace = Venice
+
+country_event = { #austrian gambit
+	id = Venice.1
+	title = "Absolute Chaos!"
+	desc = Venice.1.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # Accept!
+		name = "What the hell is going on?"
+		ai_chance = {
+			factor = 100
+		}
+		add_timed_idea = {
+			idea = VNC_run_on_the_banks
+			days = 120
+		}
+	}
+}

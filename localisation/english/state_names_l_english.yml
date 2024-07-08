@@ -987,9 +987,12 @@
  STATE_969: "Rio Branco"
  STATE_970: "South Arles"
  STATE_971: "Port Kernau"
- STATE_972: "Devonshire"
- STATE_973: "Douvres"
- STATE_974: "The Pale"
+ STATE_972: "Lubeck"
+ STATE_973: "Hamburg"
+ STATE_974: "Genoa"
+ STATE_978: "Koln"
+ STATE_979: "Bremen"
+ STATE_980: "Oldenburg"
  
  
 
