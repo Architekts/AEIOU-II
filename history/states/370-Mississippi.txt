@@ -7,19 +7,18 @@ state={
 	state_category = city
 
 	history={
-		owner = TST
+		owner = LOU
 		victory_points = {
 			4464 1 
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			air_base = 3
 			4464 = {
 				naval_base = 4
 			}
 		}
-		add_core_of = TST
+		add_core_of = LOU
 	}
 
 	provinces={

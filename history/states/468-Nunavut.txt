@@ -11,17 +11,16 @@ state={
 	}
 
 	history={
-		owner = TST
+		owner = VNL
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 2
 			industrial_complex = 1
-			air_base = 3
 			12149 = {
 				naval_base = 6
 			}
 		}
-		add_core_of = TST
+		add_core_of = VNL
 		victory_points = {
 			4345 20
 		}

@@ -1,0 +1,23 @@
+﻿capital = 331 #Nuuk
+
+oob = "ICE_1936"
+
+set_research_slots = 2
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+
+set_politics = {
+	ruling_party = weitlingist
+	elections_allowed = no
+}
+set_popularities = {
+	conservative = 15
+	liberal = 15
+	totalitarian = 20
+	weitlingist = 50
+	
+}
+
