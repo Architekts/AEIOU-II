@@ -122,12 +122,15 @@ focus_tree = {
         cost = 14
         
         relative_position_id = AUS_declare_martial_law
+
+        
         x = -3
         y = 4
 
         prerequisite = {
             focus = AUS_dealing_with_the_mafia
         }    
+        mutually_exclusive = { focus = AUS_drain_the_swamp}
 
         completion_reward = {
         }
@@ -174,6 +177,7 @@ focus_tree = {
         prerequisite = {
             focus = AUS_dealing_with_the_mafia
         }    
+        mutually_exclusive = { focus = AUS_reintegration}
 
         completion_reward = {
         }
@@ -443,6 +447,9 @@ focus_tree = {
         prerequisite = {
             focus = AUS_sieze_guild_assets
         }    
+        prerequisite = {
+            focus = AUS_settle_internal_logistics
+        }         
 
         completion_reward = {
         }
