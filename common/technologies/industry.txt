@@ -1,5 +1,96 @@
 technologies = {
 
+	restricted_buildings = {
+
+		enable_building = {
+			building = air_base
+			level = 3
+		}
+
+		enable_building = {
+			building = anti_air_building
+			level = 10
+		}
+
+		enable_building = {
+			building = synthetic_refinery
+			level = 3
+		}
+		
+		enable_building = {
+			building = naval_facility
+			level = 1
+		}
+		
+		enable_building = {
+			building = stronghold_network
+			level = 1
+		}
+		
+		enable_building = {
+			building = fuel_silo
+		}
+		
+		enable_building = {
+			building = radar_station
+			level = 6
+		}
+		
+		enable_building = {
+			building = mega_gun_emplacement
+			level = 1
+		}
+		
+		enable_building = {
+			building = rocket_site
+			level = 3
+		}
+		
+		enable_building = {
+			building = nuclear_reactor
+			level = 1
+		}
+		
+		enable_building = {
+			building = nuclear_reactor_heavy_water
+			level = 1
+		}
+		
+		enable_building = {
+			building = commercial_nuclear_reactor
+			level = 1
+		}
+		
+		enable_building = {
+			building = nuclear_facility
+			level = 1
+		}
+		
+		enable_building = {
+			building = air_facility
+			level = 1
+		}
+		
+		research_cost = 3
+		start_year = 1886
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+		}
+
+		
+		ai_will_do = {
+			factor = 0			
+		}
+		
+		ai_research_weights = {
+			oil = -2.0
+		}
+	}
+
 	basic_machine_tools = {
 	
 		production_factory_max_efficiency_factor = 0.1
